@@ -2,8 +2,8 @@
   "products": [
     {
       "name": {
-        "en": "A newspaper",
-        "es": "Un periódico"
+        "en": "Newspaper",
+        "es": "Periódico"
       },
       "image": {
         "url": "assets/images/products/newspaper.png",
@@ -14,13 +14,12 @@
         }
       },
       "solution": "blue",
-      "choices": ["yellow","brown"],
       "difficulty": 1
     },
     {
       "name": {
         "en": "Wine bottle",
-        "es": "Una botella de vino"
+        "es": "Botella de vino"
       },
       "image": {
         "url": "assets/images/products/wine_bottle.jpg",
@@ -30,8 +29,7 @@
           "attribution": "Green glass wine bottle (CC BY-SA 3.0) - https://es.m.wikipedia.org/wiki/Archivo:Bouteille.jpg"
         }
       },
-      "solution": "blue",
-      "choices": ["yellow","brown"],
+      "solution": "green",
       "difficulty": 1
     }
   ]

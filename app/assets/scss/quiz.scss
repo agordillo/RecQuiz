@@ -6,6 +6,7 @@ div.quizHeader p {
 
 div.question div.questionButtonsWrapper {
   padding: 10px;
+  clear: both;
 }
 
 div.question div.questionButtonsWrapper button.answerQuestion, div.question div.questionButtonsWrapper button.resetQuestion, div.question div.questionButtonsWrapper button.resetQuiz, div.question div.questionButtonsWrapper button.nextQuestion {
@@ -23,4 +24,66 @@ div.question div.questionButtonsWrapper button[disabled]{
   color: gray;
   border: 2px solid gray;
   cursor: default;
+}
+
+div.dumpsters_wrapper {
+  display: inline-block;
+  text-align: center;
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+div.dumpster_wrapper {
+  display: inline-block;
+  float: left;
+  width: 13%;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+  position: relative;
+}
+
+div.dumpster_wrapper_green {
+  width: 12%;
+}
+
+div.dumpster_wrapper_brown, div.dumpster_wrapper_gray, div.dumpster_wrapper_sigre, div.dumpster_wrapper_facility {
+  width: 9%;
+}
+
+div.dumpster_wrapper img.dumpster {
+  width: 100%;
+  cursor: pointer;
+}
+
+div.dumpster_wrapper_yellow, div.dumpster_wrapper_green, div.dumpster_wrapper_blue {
+  margin-top: 4.5%;
+}
+
+div.dumpster_wrapper_green {
+  margin-top: 2%;
+}
+
+div.dumpster_wrapper_sigre {
+  margin-top: 2%;
+}
+
+div.dumpster_wrapper_facility {
+  margin-top: 4%;
+}
+
+div.dumpster_wrapper img.tick, div.dumpster_wrapper img.wrong_tick {
+  width: 23%;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+div.dumpster_wrapper_brown img.tick, div.dumpster_wrapper_brown img.wrong_tick, div.dumpster_wrapper_gray img.tick, div.dumpster_wrapper_gray img.wrong_tick, div.dumpster_wrapper_sigre img.tick, div.dumpster_wrapper_sigre img.wrong_tick, div.dumpster_wrapper_facility img.tick, div.dumpster_wrapper_facility img.wrong_tick {
+  width: 28%;
+}
+
+.hidden {
+  display: none;
 }

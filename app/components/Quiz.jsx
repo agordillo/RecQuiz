@@ -49,6 +49,12 @@ export default class Quiz extends React.Component {
     //Limit number of products if n > available products
     if((typeof this.props.config.n === "number")&&(this.props.config.n >= 1)&&(this.props.config.n < nProducts)){
       products = products.slice(0, Math.min(this.props.config.n, nProducts));
+      nProducts = products.length;
+    }
+
+    //Establish choices (i.e. dumpsters for products)
+    for(let i = 0; i < nProducts; i++){
+      products[i].dumpsters = ["yellow","green","blue","brown","gray","sigre","facility"];
     }
 
     this.setState({current_products:products});
