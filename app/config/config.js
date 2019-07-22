@@ -12,8 +12,9 @@ export let GLOBAL_CONFIG = {
       score_threshold:0.6,
     },
     n:3,
-    skip_insctructions: false,
-    mode: "LEARNING" //EXAM or LEARN
+    skip_insctructions: true,
+    mode: "LEARNING", //EXAM or LEARN
+    products: "config/products.json",
   },
   production:{
     debug:false,

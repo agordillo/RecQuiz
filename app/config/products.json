@@ -1,0 +1,39 @@
+{
+  "products": [
+    {
+      "name": {
+        "en": "A newspaper",
+        "es": "Un periódico"
+      },
+      "image": {
+        "url": "assets/images/products/newspaper.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/vectors/newspaper-article-journal-headlines-154444",
+          "attribution": false
+        }
+      },
+      "solution": "blue",
+      "choices": ["yellow","brown"],
+      "difficulty": 1
+    },
+    {
+      "name": {
+        "en": "Wine bottle",
+        "es": "Una botella de vino"
+      },
+      "image": {
+        "url": "assets/images/products/wine_bottle.jpg",
+        "license": {
+          "name": "CC BY-SA 3.0",
+          "resource_url": "https://es.m.wikipedia.org/wiki/Archivo:Bouteille.jpg",
+          "attribution": "Green glass wine bottle (CC BY-SA 3.0) - https://es.m.wikipedia.org/wiki/Archivo:Bouteille.jpg"
+        }
+      },
+      "solution": "blue",
+      "choices": ["yellow","brown"],
+      "difficulty": 1
+    }
+  ]
+}
+

@@ -1,0 +1,19 @@
+div.product_wrapper {
+  text-align: center;
+}
+
+div.product_wrapper div.product_title {
+  font-size: 2.1em;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+div.product_wrapper div.product_img_wrapper img {
+  width: 12%;
+  height: 12%;
+  min-width: 100px;
+  min-height: 100px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  border: 2px solid black;
+}

@@ -1,93 +1,127 @@
 import React from 'react';
+import $ from 'jquery';
 import './../assets/scss/quiz.scss';
 
 import * as Utils from '../vendors/Utils.js';
 import {addObjectives, resetObjectives, finishApp} from './../reducers/actions';
 
 import QuizHeader from './QuizHeader.jsx';
-import MCQuestion from './MCQuestion.jsx';
+import ProductQuestion from './ProductQuestion.jsx';
 
 export default class Quiz extends React.Component {
   constructor(props){
     super(props);
-    let quiz = this.props.quiz;
-    let questions = quiz.questions;
-
-    // Adaptive behaviour
-    // Sort questions based on difficulty
-    let adaptive_sorted = false;
-    if((this.props.config.adaptive === true) && (typeof props.user_profile === "object") && (typeof props.user_profile.learner_preference === "object") && (typeof props.user_profile.learner_preference.difficulty === "number")){
-      let difficulty = props.user_profile.learner_preference.difficulty;
-      if((difficulty >= 0) && (difficulty <= 10)){
-        for(let i = 0; i < questions.length; i++){
-          if((typeof questions[i].difficulty !== "number") || (questions[i].difficulty < 0) || (questions[i].difficulty > 10)){
-            questions[i].difficulty = 5;
-          }
-          questions[i].suitability = (10 - Math.abs((questions[i].difficulty - difficulty))) / 10;
-        }
-        questions.sort(function(a, b){ return b.suitability - a.suitability; });
-        adaptive_sorted = true;
-      }
-    }
-
-    if(adaptive_sorted === false){
-      questions = Utils.shuffleArray(questions);
-    }
-
-    if((typeof this.props.config.n === "number") && (this.props.config.n >= 1)){
-      // Limit number of questions
-      questions = questions.slice(0, Math.min(this.props.config.n, questions.length));
-    }
-
-    quiz.questions = questions;
-
     this.state = {
-      quiz:quiz,
-      current_question_index:1,
+      all_products: [],
+      current_products: [],
+      current_product_index: 1
     };
   }
   componentDidMount(){
-    // Create objectives (One per question included in the quiz)
+    $.getJSON(this.props.config.products, function(data) {
+        if((data.products instanceof Array)&&(data.products.length > 0)){
+          //Products retrieved
+          this.afterRetrieveProducts(data.products);
+        }
+    }.bind(this));
+  }
+
+  afterRetrieveProducts(products){
+    //Save products
+    this.setState({all_products:products});
+
+    //Create questions (i.e. current products)
+    let nProducts = products.length;
+
+    //Shuffle products
+    products = Utils.shuffleArray(products);
+
+    // If adaptive behaviour enabled: try to sort products based on difficulty
+    let products_sorted = false;
+    if(this.props.config.adaptive === true){
+      let difficulty = this.getUserDifficulty();
+      if(typeof difficulty !== "undefined"){
+        products = this.sortProductsByDifficulty(products,difficulty);
+        products_sorted = true;
+      }
+    }
+
+    //Limit number of products if n > available products
+    if((typeof this.props.config.n === "number")&&(this.props.config.n >= 1)&&(this.props.config.n < nProducts)){
+      products = products.slice(0, Math.min(this.props.config.n, nProducts));
+    }
+
+    this.setState({current_products:products});
+
+    // Create objectives (one per question/product included in the quiz)
     let objectives = [];
-    let nQuestions = this.state.quiz.questions.length;
-    for(let i = 0; i < nQuestions; i++){
-      objectives.push(new Utils.Objective({id:("Question" + (i + 1)), progress_measure:(1 / nQuestions), score:(1 / nQuestions)}));
+    for(let i = 0; i < nProducts; i++){
+      objectives.push(new Utils.Objective({id:("Product" + (i + 1)), progress_measure:(1 / nProducts), score:(1 / nProducts)}));
     }
     this.props.dispatch(addObjectives(objectives));
   }
+
+  sortProductsByDifficulty(products,difficulty){
+    if((typeof difficulty === "number")&&(difficulty >=1)&&(difficulty <= 10)){
+      for(let i = 0; i < products.length; i++){
+        if((typeof products[i].difficulty !== "number") || (products[i].difficulty < 1) || (products[i].difficulty > 10)){
+          products[i].difficulty = 5;
+        }
+        products[i].suitability = (10 - Math.abs((products[i].difficulty - difficulty))) / 10;
+      }
+      products.sort(function(a, b){ return b.suitability - a.suitability; });
+      return products;
+    }
+  }
+
+  getUserDifficulty(){
+    //Difficulty provided by the environment
+    if((typeof this.props.user_profile === "object") && (typeof this.props.user_profile.learner_preference === "object") && (typeof this.props.user_profile.learner_preference.difficulty === "number")&&(this.props.user_profile.learner_preference.difficulty >= 1 && this.props.user_profile.learner_preference.difficulty <= 10)){
+      return this.props.user_profile.learner_preference.difficulty;
+    }
+    //Difficulty locally stored
+    let storedDifficulty = this.props.LocalStorage.getSetting("difficulty");
+    if((typeof storedDifficulty === "number")&&(storedDifficulty >= 1 && storedDifficulty <= 10)){
+      return storedDifficulty;
+    } else {
+      return undefined;
+    }
+  }
+
   onNextQuestion(){
-    let isLastQuestion = (this.state.current_question_index === this.state.quiz.questions.length);
+    let isLastQuestion = (this.state.current_product_index === this.state.current_products.length);
     if(isLastQuestion === false){
-      this.setState({current_question_index:(this.state.current_question_index + 1)});
+      this.setState({current_product_index:(this.state.current_product_index + 1)});
     } else {
       this.props.dispatch(finishApp(true));
     }
   }
+
   onResetQuiz(){
-    this.setState({current_question_index:1});
+    this.setState({current_product_index:Math.max(1,this.state.current_products.length)});
     this.props.dispatch(resetObjectives());
   }
-  render(){
-    let currentQuestion = this.state.quiz.questions[this.state.current_question_index - 1];
-    let isLastQuestion = (this.state.current_question_index === this.state.quiz.questions.length);
 
-    let objective = this.props.tracking.objectives["Question" + (this.state.current_question_index)];
+  render(){
+    let currentProduct = this.state.current_products[this.state.current_product_index - 1];
+    let isLastQuestion = (this.state.current_product_index === this.state.current_products.length);
+    let objective = this.props.tracking.objectives["Product" + (this.state.current_product_index)];
     let onNextQuestion = this.onNextQuestion.bind(this);
     let onResetQuiz = this.onResetQuiz.bind(this);
-    let currentQuestionRender = "";
 
-    switch (currentQuestion.type){
-    case "multiple_choice":
-      currentQuestionRender = (<MCQuestion question={currentQuestion} dispatch={this.props.dispatch} I18n={this.props.I18n} objective={objective} onNextQuestion={onNextQuestion} onResetQuiz={onResetQuiz} isLastQuestion={isLastQuestion} quizCompleted={this.props.tracking.finished}/>);
-      break;
-    default:
-      currentQuestionRender = "Question type not supported";
+    let quizHeader = "";
+    if(typeof this.state.current_products.length > 0){
+      quizHeader = (<QuizHeader I18n={this.props.I18n} products={this.state.current_products} currentProductIndex={this.state.current_product_index}/>);
+    }
+    let productQuestion = "";
+    if(typeof currentProduct === "object"){
+       productQuestion=(<ProductQuestion product={currentProduct} dispatch={this.props.dispatch} I18n={this.props.I18n} objective={objective} onNextQuestion={onNextQuestion} onResetQuiz={onResetQuiz} isLastQuestion={isLastQuestion} quizCompleted={this.props.tracking.finished}/>)
     }
 
     return (
       <div className="quiz">
-        <QuizHeader I18n={this.props.I18n} quiz={this.state.quiz} currentQuestionIndex={this.state.current_question_index}/>
-        {currentQuestionRender}
+        {quizHeader}
+        {productQuestion}
       </div>
     );
   }

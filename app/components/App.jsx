@@ -44,7 +44,7 @@ export class App extends React.Component {
         case 1:
           //Quiz
           appContent = (
-            <Quiz dispatch={this.props.dispatch} user_profile={this.props.user_profile} tracking={this.props.tracking} quiz={SAMPLES.quiz_example} config={GLOBAL_CONFIG} I18n={I18n}/>
+            <Quiz dispatch={this.props.dispatch} user_profile={this.props.user_profile} tracking={this.props.tracking} quiz={SAMPLES.quiz_example} config={GLOBAL_CONFIG} I18n={I18n} LocalStorage={LocalStorage}/>
           );
           break;
         case 2:
