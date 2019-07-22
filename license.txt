@@ -1,10 +1,11 @@
-RESCORM is available under MIT License.
-
-This boilerplate has been developed based on ES6 React boilerplate using Webpack (https://github.com/KleoPetroff/react-webpack-boilerplate) and react-iweb-boilerplate (https://github.com/sonsoleslp/react-iweb-boilerplate).
+RecQuiz is available under MIT License.
 
 
 Images:
 
-React logo is licensed under the Creative Commons Attribution-Share Alike 1.0 Generic license.
-Author: Facebook
-Source: https://commons.wikimedia.org/wiki/File:React-icon.svg
+Flat tick icon (Creative Commons Attribution-Share Alike 3.0 Unported license) - https://commons.wikimedia.org/wiki/File:Flat_tick_icon.svg
+Wrong tick (Public domain) - https://www.maxpixel.net/Cancel-Red-Wrong-Incorrect-Abort-Delete-Remove-295503
+Information icon (Free for commercial use No attribution required) - https://pixabay.com/vectors/info-icon-information-message-tips-803717
+Reading-manual-docs-help-book-man (Free for commercial use No attribution required) - https://pixabay.com/vectors/reading-manual-docs-help-book-man-99244
+Recycle icon (Public domain) - https://commons.wikimedia.org/wiki/File:Recycle001.svg
+Question mark green (Public domain) - http://www.freestockphotos.biz/stockphoto/16032

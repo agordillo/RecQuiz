@@ -14,7 +14,14 @@ export let LOCALES = {
     "i.reset_question":"Reset question",
     "i.reset_quiz":"Reset quiz",
     "i.score":"Score",
-    "i.title":"RESCORM Boilerplate",
+    "i.title":"RecQuiz",
+    "i.instructions_title": "Instrucciones",
+    "i.instructions_1": "Aparecerá un producto en la pantalla junto con varios contenedores o lugares posibles para tirarlo.",
+    "i.instructions_2": "Elije, antes de que se acabe el tiempo, el contenedor o lugar apropiado para tirar el producto para que éste pueda ser correctamente reciclado.",
+    "i.instructions_3": "Para seleccionar un contenedor/lugar basta con que pulses sobre su imagen.",
+    "i.instructions_4": "Si tu respuesta es correcta, se mostará un <img src='assets/images/tick.png'/> sobre la opción elegida. En caso contrario, si tu respuesta es incorrecta, se mostará una <img src='assets/images/wrong_tick.png'/> sobre la opción que elegise y un <img src='assets/images/tick.png'/> en la respuesta correcta.",
+    "i.instructions_5": "Si tienes dudas, puedes consultar información adicional sobre reciclaje pulsando sobre el icono <img src='assets/images/learning.png'/>. También puedes volver a ver estas instrucciones pulsando sobre el icono <img src='assets/images/info.png'/>.",
+    "i.instructions_button_ok": "Entendido"
   },
   es:{
     "i.answer":"Responder",

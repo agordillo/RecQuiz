@@ -1,12 +1,20 @@
 body {
-  background-color: white;
+  background-color: #baffcd;
+  font-size: 12px;
+}
+
+div.header_wrapper {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
 }
 
 div.header_wrapper img {
-  width: 71px;
-  height: 50px;
-  float: left;
-  margin-top: 8px;
+  width: 30%;
+  min-width: 200px;
+  height: auto;
+  margin: 12px 10px 5px 10px;
+  display: inline-block;
 }
 
 #heading {
@@ -28,4 +36,10 @@ div.header_wrapper img {
   font-size: 18px;
   color: gray;
   margin: 8px;
+}
+
+button.btn-primary {
+  background-color: #006703;
+  border-color: black;
+  border: 2px solid black;
 }

@@ -1,8 +1,8 @@
 {
-  "name": "RESCORM",
-  "version": "0.0.2",
-  "description": "A boilerplate for creating SCORM-compliant React applications",
-  "author": "Aldo Gordillo <agordillo@dit.upm.es>",
+  "name": "RecQuiz",
+  "version": "0.0.1",
+  "description": "An e-learning application about recycling",
+  "author": "Aldo Gordillo <agordillo@upm.es>",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",

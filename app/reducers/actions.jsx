@@ -56,6 +56,13 @@ export function showDialog(text){
   };
 }
 
+export function changeScreen(screen = 1){
+  return {
+    type:'CHANGE_SCREEN',
+    screen:screen,
+  };
+}
+
 export function finishApp(finished = true){
   return {
     type:'FINISH_APP',
