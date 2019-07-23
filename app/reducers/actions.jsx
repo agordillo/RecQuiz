@@ -63,6 +63,27 @@ export function changeScreen(screen = 1){
   };
 }
 
+export function updateQuiz(quiz = {}){
+  return {
+    type:'UPDATE_QUIZ',
+    quiz:quiz,
+  };
+}
+
+export function updateQuestionIndex(index = 1){
+  return {
+    type:'UPDATE_QUESTION_INDEX',
+    index:index,
+  };
+}
+
+export function selectDumpster(dumpster = undefined){
+  return {
+    type:'SELECT_DUMPSTER',
+    dumpster:dumpster,
+  };
+}
+
 export function finishApp(finished = true){
   return {
     type:'FINISH_APP',

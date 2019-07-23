@@ -13,4 +13,10 @@ export const INITIAL_STATE = {
   },
   wait_for_user_profile:false,
   screen: 0,
+  quiz: {
+    all_products: [],
+    current_products: [],
+    current_product_index: 1,
+    selected_dumpster: undefined
+  }
 };

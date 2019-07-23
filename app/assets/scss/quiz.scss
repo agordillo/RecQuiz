@@ -7,23 +7,34 @@ div.quizHeader p {
 div.question div.questionButtonsWrapper {
   padding: 10px;
   clear: both;
+  text-align: center;
+  margin-top: 20px;
 }
 
 div.question div.questionButtonsWrapper button.answerQuestion, div.question div.questionButtonsWrapper button.resetQuestion, div.question div.questionButtonsWrapper button.resetQuiz, div.question div.questionButtonsWrapper button.nextQuestion {
   padding: 10px;
   margin-left: 10px;
-  color: black;
-  background: white;
+  color: white;
+  background-color: #006703;
   border: 2px solid black;
   font-size: 15px;
   font-weight: bold;
   cursor: pointer;
 }
 
+div.question div.questionButtonsWrapper button.nextQuestion:hover {
+  background-color: black;
+}
+
+div.question div.questionButtonsWrapper button[disabled]:hover {
+  background-color: #006703;
+}
+
 div.question div.questionButtonsWrapper button[disabled]{
   color: gray;
   border: 2px solid gray;
   cursor: default;
+  opacity: 0.5
 }
 
 div.dumpsters_wrapper {

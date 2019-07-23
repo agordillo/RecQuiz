@@ -13,13 +13,15 @@ export default class Instructions extends React.Component {
   componentDidMount(){
   }
   onClick(){
-    this.props.dispatch(changeScreen(1));
+    this.props.dispatch(changeScreen(this.props.tracking.finished ? 3 : 1));
   }
   render(){
     //Instructions 5 should be shown only for mode "LEARNING"
-    let i5 = "";
+    let i5, i6, i7 = "";
     if(this.props.config.mode === "LEARNING"){
       i5 = (<li><div dangerouslySetInnerHTML={{ __html:  this.props.I18n.getTrans("i.instructions_5")}}/></li>);
+      i6 = (<li><div dangerouslySetInnerHTML={{ __html:  this.props.I18n.getTrans("i.instructions_6")}}/></li>);
+      i7 = (<li><div dangerouslySetInnerHTML={{ __html:  this.props.I18n.getTrans("i.instructions_7")}}/></li>);
     }
     return (
       <Jumbotron fluid className="instructions_wrapper">
@@ -31,6 +33,8 @@ export default class Instructions extends React.Component {
             <li>{this.props.I18n.getTrans("i.instructions_3")}</li>
             <li><div dangerouslySetInnerHTML={{ __html:  this.props.I18n.getTrans("i.instructions_4")}}/></li>
             {i5}
+            {i6}
+            {i7}
           </ul>
           <br/><br/>
           <Button variant="primary" onClick={this.onClick.bind(this)}>{this.props.I18n.getTrans("i.instructions_button_ok")}</Button>

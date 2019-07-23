@@ -9,12 +9,36 @@ div.header_wrapper {
   width: 100%;
 }
 
-div.header_wrapper img {
-  width: 30%;
+div.header_wrapper img.logo {
+  width: 28%;
   min-width: 200px;
   height: auto;
   margin: 12px 10px 5px 10px;
   display: inline-block;
+  cursor: pointer;
+}
+
+div.header_wrapper img.logo[disabled] {
+  cursor: default;
+}
+
+div.header_wrapper img.headericon {
+  width: 4%;
+  position: absolute;
+  margin: 4% 1% 4% 1%;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+div.header_wrapper img.headericon[disabled] {
+  opacity: 1;
+  cursor: default;
+}
+
+div.header_wrapper img.headericon.learning {
+  right: 5%;
 }
 
 #heading {
@@ -40,6 +64,10 @@ div.header_wrapper img {
 
 button.btn-primary {
   background-color: #006703;
-  border-color: black;
+  border: 2px solid black;
+}
+
+button.btn-primary:hover {
+  background-color: black;
   border: 2px solid black;
 }

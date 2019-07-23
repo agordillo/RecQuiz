@@ -5,6 +5,8 @@ function screenReducer(state = false, action){
       return action.screen;
     }
     return state;
+  case 'FINISH_APP':
+    return 3;
   default:
     return state;
   }
