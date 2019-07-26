@@ -44,7 +44,7 @@ export function objectiveAccomplishedThunk(objectiveId, accomplishedScore = null
     if((typeof firstState.tracking.objectives[objectiveId] === "object") && (firstState.tracking.objectives[objectiveId].accomplished === false) && (typeof secondState.tracking.objectives[objectiveId] === "object") && (secondState.tracking.objectives[objectiveId].accomplished === true)){
       // Objective with id objectiveId was accomplished.
       // Do something and/or dispatch another action.
-      console.log("Objective with id " + objectiveId + " was accomplished.");
+      //console.log("Objective with id " + objectiveId + " was accomplished.");
       dispatch(showDialog("Objective with id " + objectiveId + " was accomplished."));
     }
   };
@@ -81,6 +81,13 @@ export function selectDumpster(dumpster = undefined){
   return {
     type:'SELECT_DUMPSTER',
     dumpster:dumpster,
+  };
+}
+
+export function updateTimer(timer = 100){
+  return {
+    type:'UPDATE_TIMER',
+    timer:timer,
   };
 }
 

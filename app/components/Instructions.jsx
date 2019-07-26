@@ -17,7 +17,12 @@ export default class Instructions extends React.Component {
   }
   render(){
     //Instructions 5 should be shown only for mode "LEARNING"
-    let i5, i6, i7 = "";
+    let i2, i5, i6, i7 = "";
+    if(this.props.config.enable_timer === true){
+      i2 = (<li>{this.props.I18n.getTrans("i.instructions_2_timer")}</li>);
+    } else {
+      i2 = (<li>{this.props.I18n.getTrans("i.instructions_2")}</li>);
+    }
     if(this.props.config.mode === "LEARNING"){
       i5 = (<li><div dangerouslySetInnerHTML={{ __html:  this.props.I18n.getTrans("i.instructions_5")}}/></li>);
       i6 = (<li><div dangerouslySetInnerHTML={{ __html:  this.props.I18n.getTrans("i.instructions_6")}}/></li>);
@@ -29,7 +34,7 @@ export default class Instructions extends React.Component {
           <h1>{this.props.I18n.getTrans("i.instructions_title")}</h1>
           <ul>
             <li>{this.props.I18n.getTrans("i.instructions_1")}</li>
-            <li>{this.props.I18n.getTrans("i.instructions_2")}</li>
+            {i2}
             <li>{this.props.I18n.getTrans("i.instructions_3")}</li>
             <li><div dangerouslySetInnerHTML={{ __html:  this.props.I18n.getTrans("i.instructions_4")}}/></li>
             {i5}

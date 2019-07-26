@@ -5,6 +5,7 @@ import userProfileReducer from './userProfileReducer';
 import waitForUserProfileReducer from './waitForUserProfileReducer';
 import screenReducer from './screenReducer';
 import quizReducer from './quizReducer';
+import timerReducer from './timerReducer';
 
 const GlobalState = combineReducers({
   tracking:trackingReducer,
@@ -13,6 +14,7 @@ const GlobalState = combineReducers({
   wait_for_user_profile:waitForUserProfileReducer,
   screen:screenReducer,
   quiz:quizReducer,
+  timer:timerReducer,
 });
 
 export default GlobalState;

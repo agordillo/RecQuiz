@@ -1,23 +1,21 @@
 div.quizHeader p {
-  font-size: 20px;
-  margin-top: 25px;
-  margin-bottom: 20px;
+  font-size: 1.3rem;
+  margin: 1% 5% 1% 5%;
 }
 
 div.question div.questionButtonsWrapper {
   padding: 10px;
   clear: both;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 div.question div.questionButtonsWrapper button.answerQuestion, div.question div.questionButtonsWrapper button.resetQuestion, div.question div.questionButtonsWrapper button.resetQuiz, div.question div.questionButtonsWrapper button.nextQuestion {
-  padding: 10px;
-  margin-left: 10px;
+  padding: .7rem .8rem;
   color: white;
   background-color: #006703;
   border: 2px solid black;
-  font-size: 15px;
+  font-size: 1.3rem;
   font-weight: bold;
   cursor: pointer;
 }
@@ -31,10 +29,10 @@ div.question div.questionButtonsWrapper button[disabled]:hover {
 }
 
 div.question div.questionButtonsWrapper button[disabled]{
-  color: gray;
-  border: 2px solid gray;
+  color: black;
+  border: 2px solid black;
   cursor: default;
-  opacity: 0.5
+  opacity: 0.3;
 }
 
 div.dumpsters_wrapper {
@@ -42,8 +40,8 @@ div.dumpsters_wrapper {
   text-align: center;
   width: 70%;
   margin-left: 15%;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 div.dumpster_wrapper {

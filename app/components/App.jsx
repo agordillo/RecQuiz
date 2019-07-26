@@ -137,7 +137,7 @@ export class App extends React.Component {
         case 1:
           //Quiz
           appContent = (
-            <Quiz quiz={this.props.quiz} dispatch={this.props.dispatch} user_profile={this.props.user_profile} tracking={this.props.tracking} config={GLOBAL_CONFIG} I18n={I18n} LocalStorage={LocalStorage}/>
+            <Quiz quiz={this.props.quiz} timer={this.props.timer} dispatch={this.props.dispatch} user_profile={this.props.user_profile} tracking={this.props.tracking} config={GLOBAL_CONFIG} I18n={I18n} LocalStorage={LocalStorage}/>
           );
           break;
         case 2:

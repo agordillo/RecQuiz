@@ -18,5 +18,6 @@ export const INITIAL_STATE = {
     current_products: [],
     current_product_index: 1,
     selected_dumpster: undefined
-  }
+  },
+  timer: 100
 };
