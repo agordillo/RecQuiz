@@ -22,16 +22,390 @@
         "es": "Botella de vino"
       },
       "image": {
-        "url": "assets/images/products/wine_bottle.jpg",
+        "url": "assets/images/products/bottle_wine.jpg",
         "license": {
           "name": "CC BY-SA 3.0",
           "resource_url": "https://es.m.wikipedia.org/wiki/Archivo:Bouteille.jpg",
-          "attribution": "Green glass wine bottle (CC BY-SA 3.0) - https://es.m.wikipedia.org/wiki/Archivo:Bouteille.jpg"
+          "attribution": "Green glass wine bottle (CC BY-SA 3.0) - Aurélien Mole (https://es.m.wikipedia.org/wiki/Archivo:Bouteille.jpg)"
         }
       },
       "solution": "green",
       "difficulty": 1
+    },{
+      "name": {
+        "en": "Plastic bottle",
+        "es": "Botella de plástico"
+      },
+      "image": {
+        "url": "assets/images/products/bottle_plastic.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/vectors/bottle-plastic-big-empty-307639",
+          "attribution": false
+        }
+      },
+      "solution": "yellow",
+      "difficulty": 1
+    },{
+      "name": {
+        "en": "Milk box",
+        "es": "Brik de leche"
+      },
+      "image": {
+        "url": "assets/images/products/milk_box.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/vectors/milk-cookies-drink-breakfast-159348",
+          "attribution": false
+        }
+      },
+      "solution": "yellow",
+      "difficulty": 1
+    },{
+      "name": {
+        "en": "Juice box",
+        "es": "Brik de zumo"
+      },
+      "image": {
+        "url": "assets/images/products/juice_box.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/vectors/juice-box-carton-disposable-straw-25189",
+          "attribution": false
+        }
+      },
+      "solution": "yellow",
+      "difficulty": 1
+    },{
+      "name": {
+        "en": "Cork Tray",
+        "es": "Bandeja de corcho blanco"
+      },
+      "image": {
+        "url": "assets/images/products/white_cork_tray.png",
+        "license": {
+          "name": "??",
+          "resource_url": "??",
+          "attribution": false
+        }
+      },
+      "solution": "yellow",
+      "difficulty": 3
+    },{
+      "name": {
+        "en": "Egg carton box",
+        "es": "Huevera de cartón"
+      },
+      "image": {
+        "url": "assets/images/products/egg_carton_box.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/vectors/egg-carton-carton-egg-box-eggs-575692",
+          "attribution": false
+        }
+      },
+      "solution": "blue",
+      "difficulty": 2
+    },{
+      "name": {
+        "en": "Egg plastic box",
+        "es": "Huevera de plástico"
+      },
+      "image": {
+        "url": "assets/images/products/egg_plastic_box.jpg",
+        "license": {
+          "name": "CC BY 2.0",
+          "resource_url": "https://flic.kr/p/2dct9r4",
+          "attribution": "Quail eggs in a plastic egg box (CC BY 2.0) - Ivan Radic (https://flic.kr/p/2dct9r4)"
+        }
+      },
+      "solution": "yellow",
+      "difficulty": 2
+    },{
+      "name": {
+        "en": "Plastic lid",
+        "es": "Tapón de plástico"
+      },
+      "image": {
+        "url": "assets/images/products/plastic_bottle_lid.jpg",
+        "license": {
+          "name": "CC0 1.0",
+          "resource_url": "https://commons.wikimedia.org/wiki/File:Light_blue_plastic_bottle_lid.jpg",
+          "attribution": false
+        }
+      },
+      "solution": "yellow",
+      "difficulty": 1
+    },{
+      "name": {
+        "en": "Fruit mesh",
+        "es": "Malla de plásico para frutas"
+      },
+      "image": {
+        "url": "assets/images/products/fruit_mesh.jpg",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/photos/fruit-oranges-orange-fruit-food-1056225",
+          "attribution": false
+        }
+      },
+      "solution": "yellow",
+      "difficulty": 5
+    },{
+      "name": {
+        "en": "Cork lid",
+        "es": "Tapón de corcho"
+      },
+      "image": {
+        "url": "assets/images/products/cork_lid.jpg",
+        "license": {
+          "name": "CC0",
+          "resource_url": "https://www.maxpixel.net/Wine-Corks-Lid-Closure-Stuff-Cork-3397657",
+          "attribution": false
+        }
+      },
+      "solution": "yellow",
+      "difficulty": 4
+    },{
+      "name": {
+        "en": "Strawberry wood box",
+        "es": "Caja de madera para fresas"
+      },
+      "image": {
+        "url": "assets/images/products/strawberry_wood_box.jpg",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/photos/box-strawberries-smurf-wood-3185857",
+          "attribution": false
+        }
+      },
+      "solution": "yellow",
+      "difficulty": 8
+    },{
+      "name": {
+        "en": "Plastic bag",
+        "es": "Bolsa de plástico"
+      },
+      "image": {
+        "url": "assets/images/products/white_plastic_bag.jpg",
+        "license": {
+          "name": "CC BY-NC-ND 2.0",
+          "resource_url": "https://www.flickr.com/photos/fservayge/1472436308",
+          "attribution": "White plastic bag (CC BY-NC-ND 2.0) - Frank Servayge (https://www.flickr.com/photos/fservayge/1472436308)"
+        }
+      },
+      "solution": "yellow",
+      "difficulty": 1
+    },{
+      "name": {
+        "en": "Bleach bottle",
+        "es": "Botella de lejía"
+      },
+      "image": {
+        "url": "assets/images/products/bleach_plastic_bottle.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/vectors/bottle-plastic-bottles-bleach-94441",
+          "attribution": false
+        }
+      },
+      "solution": "yellow",
+      "difficulty": 2
+    },{
+      "name": {
+        "en": "Shampoo bottle",
+        "es": "Botella de champú"
+      },
+      "image": {
+        "url": "assets/images/products/shampoo-_bottle.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/photos/shampoo-shampoo-bottle-1860642",
+          "attribution": false
+        }
+      },
+      "solution": "yellow",
+      "difficulty": 2
+    },{
+      "name": {
+        "en": "Aerosol can (empty)",
+        "es": "Aerosol (vacío)"
+      },
+      "image": {
+        "url": "assets/images/products/aerosol_can.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/vectors/aerosol-can-can-spray-brush-160053",
+          "attribution": false
+        }
+      },
+      "solution": "yellow",
+      "difficulty": 3
+    },{
+      "name": {
+        "en": "Can of soda",
+        "es": "Lata de refresco"
+      },
+      "image": {
+        "url": "assets/images/products/can_soda.png",
+        "license": {
+          "name": "Public Domain Mark 1.0",
+          "resource_url": "http://www.publicdomainfiles.com/show_file.php?id=13545955813544",
+          "attribution": false
+        }
+      },
+      "solution": "yellow",
+      "difficulty": 1
+    },{
+      "name": {
+        "en": "Canned food",
+        "es": "Lata de conservas"
+      },
+      "image": {
+        "url": "assets/images/products/canned_food.jpg",
+        "license": {
+          "name": "CC0 Public Domain",
+          "resource_url": "https://www.publicdomainpictures.net/en/view-image.php?image=243497&picture=canned-food",
+          "attribution": false
+        }
+      },
+      "solution": "yellow",
+      "difficulty": 2
+    },{
+      "name": {
+        "en": "Bottle of soda",
+        "es": "Botella de refresco"
+      },
+      "image": {
+        "url": "assets/images/products/bottle_soda.jpg",
+        "license": {
+          "name": "CC0 Public Domain",
+          "resource_url": "https://www.publicdomainpictures.net/es/view-image.php?image=5434&picture=empty-green-bottle",
+          "attribution": false
+        }
+      },
+      "solution": "green",
+      "difficulty": 1
+    },{
+      "name": {
+        "en": "Metal lid",
+        "es": "Tapa de metal"
+      },
+      "image": {
+        "url": "assets/images/products/bottle_cap.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/vectors/bottle-caps-metal-caps-cover-1297335",
+          "attribution": false
+        }
+      },
+      "solution": "yellow",
+      "difficulty": 3
+    },{
+      "name": {
+        "en": "Aluminium foil",
+        "es": "Papel de aluminio"
+      },
+      "image": {
+        "url": "assets/images/products/aluminium_foil.jpg",
+        "license": {
+          "name": "Public domain",
+          "resource_url": "https://commons.wikimedia.org/wiki/File:Alufolie2.jpg",
+          "attribution": false
+        }
+      },
+      "solution": "yellow",
+      "difficulty": 4
+    },{
+      "name": {
+        "en": "Vacuum package",
+        "es": "Envase al vacío"
+      },
+      "image": {
+        "url": "assets/images/products/vacuum_package.jpg",
+        "license": {
+          "name": "CC BY-SA 3.0",
+          "resource_url": "https://es.wikipedia.org/wiki/Archivo:Vacuum_Packaging_Machine_sous_vide_chuck_roll.jpg",
+          "attribution": "Vacuum Packaging Machine (CC BY-SA 3.0) - Erikoinentunnus (https://es.wikipedia.org/wiki/Archivo:Vacuum_Packaging_Machine_sous_vide_chuck_roll.jpg)"
+        }
+      },
+      "solution": "yellow",
+      "difficulty": 3
+    },{
+      "name": {
+        "en": "Clingfilm",
+        "es": "Film transparente"
+      },
+      "image": {
+        "url": "assets/images/products/clingfilm.jpg",
+        "license": {
+          "name": "Public domain",
+          "resource_url": "https://commons.wikimedia.org/wiki/File:Clingfilm.jpg",
+          "attribution": false
+        }
+      },
+      "solution": "yellow",
+      "difficulty": 3
+    },{
+      "name": {
+        "en": "Bubblewrap",
+        "es": "Plástico de burbujas"
+      },
+      "image": {
+        "url": "assets/images/products/bubblewrap.jpg",
+        "license": {
+          "name": "CC BY-SA 2.0",
+          "resource_url": "https://www.flickr.com/photos/avlxyz/10133698",
+          "attribution": "Bubblewrap (CC BY-SA 2.0) - Alpha (https://www.flickr.com/photos/avlxyz/10133698)"
+        }
+      },
+      "solution": "yellow",
+      "difficulty": 4
+    },{
+      "name": {
+        "en": "Aluminum tray",
+        "es": "Bandeja de aluminio"
+      },
+      "image": {
+        "url": "assets/images/products/aluminum_tray.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/illustrations/shells-aluminum-trays-packaging-1984293",
+          "attribution": false
+        }
+      },
+      "solution": "yellow",
+      "difficulty": 4
+    },{
+      "name": {
+        "en": "Blister pack",
+        "es": "Envase tipo blíster"
+      },
+      "image": {
+        "url": "assets/images/products/blister_package.jpg",
+        "license": {
+          "name": "CC BY-SA 3.0",
+          "resource_url": "https://commons.wikimedia.org/wiki/File:Opened_Oral_Birth_Control.jpg",
+          "attribution": "Blister pack (CC BY-SA 3.0) - Bryancalabro (https://commons.wikimedia.org/wiki/File:Opened_Oral_Birth_Control.jpg)"
+        }
+      },
+      "solution": "yellow",
+      "difficulty": 3
+    },{
+      "name": {
+        "en": "Plastic comb",
+        "es": "Peine de plástico"
+      },
+      "image": {
+        "url": "assets/images/products/plastic_comb.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/vectors/comb-teeth-plastic-tool-hair-33192",
+          "attribution": false
+        }
+      },
+      "solution": "gray",
+      "difficulty": 7
     }
   ]
 }
-

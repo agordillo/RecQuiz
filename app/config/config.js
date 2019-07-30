@@ -11,7 +11,7 @@ export let GLOBAL_CONFIG = {
       completion_threshold:0.5,
       score_threshold:0.6,
     },
-    n:3,
+    // n:3,
     mode: "LEARNING", //EXAM or LEARNING
     skip_instructions: false,
     products: "config/products.json",
