@@ -378,8 +378,8 @@
       "difficulty": 4
     },{
       "name": {
-        "en": "Blister pack",
-        "es": "Envase tipo blíster"
+        "en": "Blister pack (empty)",
+        "es": "Envase tipo blíster (vacio)"
       },
       "image": {
         "url": "assets/images/products/blister_package.jpg",
@@ -406,6 +406,261 @@
       },
       "solution": "gray",
       "difficulty": 7
+    },{
+      "name": {
+        "en": "Plastic hanger",
+        "es": "Percha de plástico"
+      },
+      "image": {
+        "url": "assets/images/products/plastic_hanger.jpg",
+        "license": {
+          "name": "CC BY-SA 3.0",
+          "resource_url": "https://commons.wikimedia.org/wiki/File:Etrusco_43_CB.jpg",
+          "attribution": "Plastic hanger (CC BY-SA 3.0) - Siglianok (https://commons.wikimedia.org/wiki/File:Etrusco_43_CB.jpg)"
+        }
+      },
+      "solution": "gray",
+      "difficulty": 6
+    },{
+      "name": {
+        "en": "Toothbrush",
+        "es": "Cepillo de dientes"
+      },
+      "image": {
+        "url": "assets/images/products/toothbrush.jpg",
+        "license": {
+          "name": "CC0 Public Domain. Free for commercial use. Link referral required",
+          "resource_url": "https://www.maxpixel.net/Dentistry-Toothbrush-Body-Care-Dental-Care-Hygiene-674650",
+          "attribution": "Toothbrush (CC0 Public Domain) - (https://www.maxpixel.net/Dentistry-Toothbrush-Body-Care-Dental-Care-Hygiene-674650)"
+        }
+      },
+      "solution": "gray",
+      "difficulty": 5
+    },{
+      "name": {
+        "en": "Plastic duck",
+        "es": "Patito de plástico"
+      },
+      "image": {
+        "url": "assets/images/products/plastic_duck.jpg",
+        "license": {
+          "name": "CC0 Public Domain. Free for commercial use. Link referral required",
+          "resource_url": "https://www.maxpixel.net/Toy-Rubber-Duck-Cute-Baby-Yellow-Duckling-594356",
+          "attribution": "Plastic duck (CC0 Public Domain) - (https://www.maxpixel.net/Toy-Rubber-Duck-Cute-Baby-Yellow-Duckling-594356)"
+        }
+      },
+      "solution": "gray",
+      "difficulty": 6
+    },{
+      "name": {
+        "en": "Feeding Bottle",
+        "es": "Biberón"
+      },
+      "image": {
+        "url": "assets/images/products/feeding_bottle.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/illustrations/baby-bottle-feed-boy-milk-child-927259",
+          "attribution": false
+        }
+      },
+      "solution": "gray",
+      "difficulty": 6
+    },{
+      "name": {
+        "en": "Pacifier",
+        "es": "Chupete"
+      },
+      "image": {
+        "url": "assets/images/products/pacifier.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/vectors/pink-baby-girl-child-pregnancy-4211917",
+          "attribution": false
+        }
+      },
+      "solution": "gray",
+      "difficulty": 6
+    },{
+      "name": {
+        "en": "Plastic spatula",
+        "es": "Espátula de plástico"
+      },
+      "image": {
+        "url": "assets/images/products/spatula.jpg",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/photos/toys-kitchen-utensils-kitchen-1767627",
+          "attribution": false
+        }
+      },
+      "solution": "gray",
+      "difficulty": 6
+    },{
+      "name": {
+        "en": "Plastic lunch container (empty)",
+        "es": "Envase de plástico para comida (vacio)"
+      },
+      "image": {
+        "url": "assets/images/products/lunch_box_empty_container.jpg",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "resource_url": "https://commons.wikimedia.org/wiki/File:HK_white_lunch_box_empty_container_LGM_H28PL_June_2018_02.jpg",
+          "attribution": "White lunch box empty container (CC BY-SA 4.0) - SIUkcjdkhvi (https://commons.wikimedia.org/wiki/File:HK_white_lunch_box_empty_container_LGM_H28PL_June_2018_02.jpg)"
+        }
+      },
+      "solution": "yellow",
+      "difficulty": 4
+    },{
+      "name": {
+        "en": "Plastic tupperware",
+        "es": "Táper de plástico"
+      },
+      "image": {
+        "url": "assets/images/products/tupperware.jpg",
+        "license": {
+          "name": "Public domain",
+          "resource_url": "https://commons.wikimedia.org/wiki/File:Small_authentic_tupperware.JPG",
+          "attribution": false
+        }
+      },
+      "solution": "gray",
+      "difficulty": 6
+    },{
+      "name": {
+        "en": "Bottle of aftershave",
+        "es": "Frasco de aftershave"
+      },
+      "image": {
+        "url": "assets/images/products/aftershave.jpg",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/photos/perfume-smells-con-fragrance-scent-1042712",
+          "attribution": false
+        }
+      },
+      "solution": "green",
+      "difficulty": 4
+    },{
+      "name": {
+        "en": "Jar bottle (empty)",
+        "es": "Tarro de mermelada (vacío)"
+      },
+      "image": {
+        "url": "assets/images/products/jar_bottle.jpg",
+        "license": {
+          "name": "CC0 Public Domain. Free for commercial use. Link referral required.",
+          "resource_url": "https://www.maxpixel.net/Shadow-Table-Dark-Glass-Ice-Cold-Jar-Water-2584231",
+          "attribution": "Shadow Table Dark Glass Ice Cold Jar Water (CC0 Public Domain) - (https://www.maxpixel.net/Shadow-Table-Dark-Glass-Ice-Cold-Jar-Water-2584231)"
+        }
+      },
+      "solution": "green",
+      "difficulty": 4
+    },{
+      "name": {
+        "en": "Canning jar",
+        "es": "Tarro de conservas"
+      },
+      "image": {
+        "url": "assets/images/products/canning_jar.jpg",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/photos/mason-jars-dehydrated-fruit-oranges-2742757",
+          "attribution": false
+        }
+      },
+      "solution": "green",
+      "difficulty": 4
+    },{
+      "name": {
+        "en": "Glass of a mirror",
+        "es": "Cristal de un espejo"
+      },
+      "image": {
+        "url": "assets/images/products/mirror.jpg",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/illustrations/mirror-frame-crown-pearl-vintage-3199889",
+          "attribution": false
+        }
+      },
+      "solution": "gray",
+      "difficulty": 7
+    },{
+      "name": {
+        "en": "Glass of a window",
+        "es": "Cristal de una ventana"
+      },
+      "image": {
+        "url": "assets/images/products/window.jpg",
+        "license": {
+          "name": "CC BY 2.0",
+          "resource_url": "https://www.flickr.com/photos/3336/10076977826",
+          "attribution": "Boss' Window (CC BY 2.0) - Diego Torres Silvestre (https://www.flickr.com/photos/3336/10076977826)"
+        }
+      },
+      "solution": "gray",
+      "difficulty": 7
+    },{
+      "name": {
+        "en": "Bottle of perfume",
+        "es": "Frasco de perfume"
+      },
+      "image": {
+        "url": "assets/images/products/perfume.jpg",
+        "license": {
+          "name": "CC0 Public Domain",
+          "resource_url": "https://www.publicdomainpictures.net/es/view-image.php?image=45893&picture=perfume",
+          "attribution": false
+        }
+      },
+      "solution": "green",
+      "difficulty": 4
+    },{
+      "name": {
+        "en": "Glass jar",
+        "es": "Tarro de vidrio"
+      },
+      "image": {
+        "url": "assets/images/products/glass_jar.jpg",
+        "license": {
+          "name": "CC0 Public Domain",
+          "resource_url": "https://www.publicdomainpictures.net/es/view-image.php?image=32798&picture=tarro-de-cristal-verde",
+          "attribution": false
+        }
+      },
+      "solution": "green",
+      "difficulty": 3
+    },{
+      "name": {
+        "en": "Shoe box",
+        "es": "Caja de zapatos"
+      },
+      "image": {
+        "url": "assets/images/products/shoe_box.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/illustrations/box-boot-shoe-design-white-2864333",
+          "attribution": false
+        }
+      },
+      "solution": "blue",
+      "difficulty": 3
+    },{
+      "name": {
+        "en": "Cereal box",
+        "es": "Caja de cereales"
+      },
+      "image": {
+        "url": "assets/images/products/cereal_box.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/vectors/cereal-box-bananas-strawberries-41319",
+          "attribution": false
+        }
+      },
+      "solution": "blue",
+      "difficulty": 3
     }
   ]
 }

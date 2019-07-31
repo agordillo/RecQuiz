@@ -14,7 +14,7 @@ export let GLOBAL_CONFIG = {
     n:3,
     mode: "LEARNING", //EXAM or LEARNING
     skip_instructions: false,
-    products: "config/products_test.json",
+    products: "config/products.json",
     enable_timer: true,
     timerseconds: 30,
   },
