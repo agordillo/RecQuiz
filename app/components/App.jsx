@@ -41,11 +41,20 @@ export class App extends React.Component {
     //Save all products
     quiz.all_products = JSON.parse(JSON.stringify(products));
 
+    //Shuffle products
+    products = Utils.shuffleArray(products);
+
     //Create questions (i.e. current products)
     let nProducts = products.length;
 
-    //Shuffle products
-    products = Utils.shuffleArray(products);
+    //Specify maximum number of products to be shown
+    let n = undefined;
+    if((typeof GLOBAL_CONFIG.n === "number")&&(GLOBAL_CONFIG.n >= 1)){
+      n = Math.min(GLOBAL_CONFIG.n, nProducts);
+    }
+    
+    //Remove products shown in previous interactions with the app
+    products = this.filterShownProducts(products);
 
     // If adaptive behaviour enabled: try to sort products based on difficulty
     let products_sorted = false;
@@ -58,8 +67,8 @@ export class App extends React.Component {
     }
 
     //Limit number of products if n > available products
-    if((typeof GLOBAL_CONFIG.n === "number")&&(GLOBAL_CONFIG.n >= 1)&&(GLOBAL_CONFIG.n < nProducts)){
-      products = products.slice(0, Math.min(GLOBAL_CONFIG.n, nProducts));
+    if(typeof n === "number"){
+      products = products.slice(0, n);
       nProducts = products.length;
     }
 
@@ -73,13 +82,55 @@ export class App extends React.Component {
     //Save quiz in state
     this.props.dispatch(updateQuiz(quiz));
 
-
     // Create objectives (one per question/product included in the quiz)
     let objectives = [];
-    for(let i = 0; i < nProducts; i++){
-      objectives.push(new Utils.Objective({id:("Product" + (i + 1)), progress_measure:(1 / nProducts), score:(1 / nProducts)}));
+    for(let j = 0; j < nProducts; j++){
+      objectives.push(new Utils.Objective({id:("Product" + (j + 1)), progress_measure:(1 / nProducts), score:(1 / nProducts)}));
     }
     this.props.dispatch(addObjectives(objectives));
+  }
+
+  //Remove products shown in previous interactions with the app
+  filterShownProducts(products){
+    let nProducts = products.length;
+    if(nProducts === 0){
+      return products;
+    }
+    let showedProducts = LocalStorage.getSetting("showed_products");
+    if((!(showedProducts instanceof Array))||(showedProducts.length === 0)){
+      return products;
+    }
+    let nShowedProducts = showedProducts.length;
+
+    let all_products_filtered = [];
+    let filtered_products = [];
+    for(let i = 0; i<nProducts; i++){
+      let filtered = false;
+      for(let j = 0; j<nShowedProducts; j++){
+        if((typeof products[i]["name"] === "object")&&(typeof products[i]["name"]["en"] === "string")&&((products[i]["name"]["en"] === showedProducts[j]))){
+          filtered = true;
+          filtered_products.push(products[i]);
+          break;
+        }
+      }
+      if(filtered === false){
+        all_products_filtered.push(products[i]);
+      }
+    }
+    let nProductsFiltered = all_products_filtered.length;
+    if(nProductsFiltered === 0){
+      this.resetStoredProducts();
+      return this.filterShownProducts(products);
+    }
+    if((typeof n === "number")&&(n > nProductsFiltered)){
+      let productsToAdd = Math.min((n - nProductsFiltered),filtered_products.length);
+      for(let k=0; k<productsToAdd; k++){
+        all_products_filtered.push(filtered_products[k]);
+      }
+      all_products_filtered = Utils.shuffleArray(all_products_filtered);
+    }
+
+    return all_products_filtered;
   }
 
   sortProductsByDifficulty(products,difficulty){
@@ -104,11 +155,38 @@ export class App extends React.Component {
     let storedDifficulty = LocalStorage.getSetting("difficulty");
     if((typeof storedDifficulty === "number")&&(storedDifficulty >= 1 && storedDifficulty <= 10)){
       return storedDifficulty;
-    } else {
-      return undefined;
     }
+    //Difficulty specified in config file
+    if((typeof GLOBAL_CONFIG.difficulty === "number")&&(GLOBAL_CONFIG.difficulty >= 0)&&(GLOBAL_CONFIG.difficulty <= 10)){
+      return GLOBAL_CONFIG.difficulty;
+    }
+    return undefined;
   }
 
+  resetStoredProducts(){
+    let showedProducts = LocalStorage.getSetting("showed_products");
+    let incorrectProducts = LocalStorage.getSetting("incorrect_products");
+    if((showedProducts instanceof Array)&&(showedProducts.length > 0)&&(incorrectProducts instanceof Array)&&(incorrectProducts.length > 0)){
+      let newShowedProducts = [];
+      for(let i=0; i<showedProducts.length; i++){
+        let incorrect = false;
+        for(let j=0; j<incorrectProducts.length; j++){
+          if(showedProducts[i]===incorrectProducts[j]){
+            incorrect = true;
+            break;
+          }
+        }
+        if(incorrect===false){
+          newShowedProducts.push(showedProducts[i]);
+        }
+      }
+      LocalStorage.saveSetting("showed_products",newShowedProducts);
+    } else {
+      LocalStorage.saveSetting("showed_products",[]);
+    }
+    
+    LocalStorage.saveSetting("incorrect_products",[]);
+  }
 
   render(){
     let showInstructions = !((GLOBAL_CONFIG.skip_instructions===true)||(LocalStorage.getSetting("skip_instructions")===true));

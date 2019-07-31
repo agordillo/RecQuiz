@@ -11,16 +11,16 @@ export function init(){
 
 function getData(){
   if(ls_supported === false){
-    return undefined;
+    return {};
   }
   let storedData = localStorage.getItem("RecQuiz");
   if((typeof storedData === "undefined")||(storedData === null)){
-    return undefined;
+    return {};
   }
   try {
     return JSON.parse(storedData);
   } catch (e){
-    return undefined;
+    return {};
   }
 }
 
@@ -48,7 +48,7 @@ export function getSetting(settingName){
   return undefined;
 }
 
-function saveSetting(settingName,value){
+export function saveSetting(settingName,value){
   if(ls_supported === false){
     return undefined;
   }
@@ -58,4 +58,36 @@ function saveSetting(settingName,value){
     return saveData(data);
   }
   return undefined;
+}
+
+export function saveShowedProduct(product){
+  if((typeof product !== "object")||(typeof product["name"] !== "object")||(typeof product["name"]["en"] !== "string")){
+    return undefined;
+  }
+  let showedProducts = this.getSetting("showed_products");
+  if(!(showedProducts instanceof Array)){
+    showedProducts = [];
+  }
+  if(showedProducts.indexOf()===-1){
+    showedProducts.push(product["name"]["en"]);
+  } else {
+    return undefined;
+  }
+  return this.saveSetting("showed_products",showedProducts);
+}
+
+export function saveIncorrectProduct(product){
+  if((typeof product !== "object")||(typeof product["name"] !== "object")||(typeof product["name"]["en"] !== "string")){
+    return undefined;
+  }
+  let incorrectProducts = this.getSetting("incorrect_products");
+  if(!(incorrectProducts instanceof Array)){
+    incorrectProducts = [];
+  }
+  if(incorrectProducts.indexOf()===-1){
+    incorrectProducts.push(product["name"]["en"]);
+  } else {
+    return undefined;
+  }
+  return this.saveSetting("incorrect_products",incorrectProducts);
 }

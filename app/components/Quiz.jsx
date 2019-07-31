@@ -16,6 +16,9 @@ export default class Quiz extends React.Component {
       timerInterval = undefined;
       timerConstant = (timerRefreshMs/(10*this.props.config.timerseconds));
     }
+    //Mark current product as shown
+    let currentProduct = this.props.quiz.current_products[this.props.quiz.current_product_index - 1];
+    this.props.LocalStorage.saveShowedProduct(currentProduct);
   }
   componentDidMount(){
     if(this.props.config.enable_timer === true){
@@ -62,8 +65,9 @@ export default class Quiz extends React.Component {
     if(dumpster === currentProduct){
       //Correct
       score = this.props.objective.score;
-    } {
+    } else {
       //Incorrect (score=0)
+      this.props.LocalStorage.saveIncorrectProduct(currentProduct);
     }
 
     // Mark question as answered
@@ -76,6 +80,9 @@ export default class Quiz extends React.Component {
     let isLastQuestion = (this.props.quiz.current_product_index === this.props.quiz.current_products.length);
     if(isLastQuestion === false){
       this.props.dispatch(updateQuestionIndex(this.props.quiz.current_product_index + 1));
+      //Mark next product as shown
+      let nextProduct = this.props.quiz.current_products[this.props.quiz.current_product_index];
+      this.props.LocalStorage.saveShowedProduct(nextProduct);
     } else {
       this.props.dispatch(finishApp(true));
     }
