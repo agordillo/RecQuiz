@@ -661,6 +661,276 @@
       },
       "solution": "blue",
       "difficulty": 3
+    },{
+      "name": {
+        "en": "Paper sheet",
+        "es": "Hoja de papel"
+      },
+      "image": {
+        "url": "assets/images/products/paper_sheet.jpg",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/photos/crumpled-paper-abstract-antique-1551431",
+          "attribution": false
+        }
+      },
+      "solution": "blue",
+      "difficulty": 2
+    },{
+      "name": {
+        "en": "Notebook",
+        "es": "Cuaderno"
+      },
+      "image": {
+        "url": "assets/images/products/notebook.jpg",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/photos/notepad-hand-hold-checkered-notes-407197",
+          "attribution": false
+        }
+      },
+      "solution": "blue",
+      "difficulty": 4
+    },{
+      "name": {
+        "en": "Envelope",
+        "es": "Sobre"
+      },
+      "image": {
+        "url": "assets/images/products/envelope.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/vectors/envelope-icon-mail-1296046",
+          "attribution": false
+        }
+      },
+      "solution": "blue",
+      "difficulty": 3
+    },{
+      "name": {
+        "en": "Propaganda brochure",
+        "es": "Folleto de propaganda"
+      },
+      "image": {
+        "url": "assets/images/products/brochure.jpg",
+        "license": {
+          "name": "CC BY 2.0",
+          "resource_url": "https://www.flickr.com/photos/mufan96/9198371336",
+          "attribution": "Brochure Design (CC BY 2.0) - Evan Courtney (https://www.flickr.com/photos/mufan96/9198371336)"
+        }
+      },
+      "solution": "blue",
+      "difficulty": 5
+    },{
+      "name": {
+        "en": "Wrapping paper",
+        "es": "Papel de envolver"
+      },
+      "image": {
+        "url": "assets/images/products/wrapping_paper.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/photos/wrapping-paper-unpacked-gift-paper-1874672",
+          "attribution": false
+        }
+      },
+      "solution": "blue",
+      "difficulty": 4
+    },{
+      "name": {
+        "en": "Magazine",
+        "es": "Revista"
+      },
+      "image": {
+        "url": "assets/images/products/magazine.jpg",
+        "license": {
+          "name": "Public domain",
+          "resource_url": "https://es.wikipedia.org/wiki/Archivo:The_Gang_Magazine_May_1935.jpg",
+          "attribution": false
+        }
+      },
+      "solution": "blue",
+      "difficulty": 3
+    },{
+      "name": {
+        "en": "Toiler paper tube",
+        "es": "Canuto de un rollo de papel higiénico"
+      },
+      "image": {
+        "url": "assets/images/products/toilet_paper_tube.jpg",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/photos/roll-sanitary-tissue-toiletries-1239215",
+          "attribution": false
+        }
+      },
+      "solution": "blue",
+      "difficulty": 3
+    },{
+      "name": {
+        "en": "Cardboard Box",
+        "es": "Caja de cartón"
+      },
+      "image": {
+        "url": "assets/images/products/cardboard_box.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/illustrations/box-cardboard-cardboard-box-package-1536798",
+          "attribution": false
+        }
+      },
+      "solution": "blue",
+      "difficulty": 3
+    },{
+      "name": {
+        "en": "Cartoon base of a battery blister pack",
+        "es": "Base de cartón de un paquete de pilas"
+      },
+      "image": {
+        "url": "assets/images/products/batteries_package.jpg",
+        "license": {
+          "name": "CC BY 2.0",
+          "resource_url": "https://www.flickr.com/photos/jeepersmedia/15932380507",
+          "attribution": "Energizer Batteries Bunny (CC BY 2.0) - Mike Mozart (https://www.flickr.com/photos/jeepersmedia/15932380507)"
+        }
+      },
+      "solution": "blue",
+      "difficulty": 5
+    },{
+      "name": {
+        "en": "Batteries",
+        "es": "Pilas"
+      },
+      "image": {
+        "url": "assets/images/products/batteries.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/illustrations/batteries-png-transparent-2109241",
+          "attribution": false
+        }
+      },
+      "solution": "facility",
+      "difficulty": 5
+    },{
+      "name": {
+        "en": "Cellophane",
+        "es": "Papel celofan"
+      },
+      "image": {
+        "url": "assets/images/products/celofan.jpg",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/es/photos/loop-celof%C3%A1n-embalaje-pack-505474",
+          "attribution": false
+        }
+      },
+      "solution": "gray",
+      "difficulty": 8
+    },{
+      "name": {
+        "en": "Paper tableware",
+        "es": "Vajilla de papel"
+      },
+      "image": {
+        "url": "assets/images/products/paper_tableware.jpg",
+        "license": {
+          "name": "CC BY-SA 3.0",
+          "resource_url": "https://commons.wikimedia.org/wiki/File:HK_CWB_Tung_Lo_Wan_%E8%81%96%E9%A6%AC%E5%88%A9%E4%BA%9E%E5%A0%82_Saint_Mary%27s_Church_Bday_party_paper_plates_May_2013.JPG",
+          "attribution": "Paper tableware (CC BY-SA 3.0) - Ewloskalw (https://commons.wikimedia.org/wiki/File:HK_CWB_Tung_Lo_Wan_%E8%81%96%E9%A6%AC%E5%88%A9%E4%BA%9E%E5%A0%82_Saint_Mary%27s_Church_Bday_party_paper_plates_May_2013.JPG)"
+        }
+      },
+      "solution": "gray",
+      "difficulty": 8
+    },{
+      "name": {
+        "en": "Sticker",
+        "es": "Pegatina"
+      },
+      "image": {
+        "url": "assets/images/products/sticker.png",
+        "license": {
+          "name": "Public Domain",
+          "resource_url": "http://www.publicdomainfiles.com/show_file.php?id=13937418026763",
+          "attribution": false
+        }
+      },
+      "solution": "gray",
+      "difficulty": 6
+    },{
+      "name": {
+        "en": "Photo",
+        "es": "Foto"
+      },
+      "image": {
+        "url": "assets/images/products/photo.jpg",
+        "license": {
+          "name": "CC0 Public Domain. Free for commercial use. Link referral required.",
+          "resource_url": "https://www.maxpixel.net/Nostalgia-Photographer-Old-Photo-Memory-Photos-256887",
+          "attribution": "Nostalgia Photographer Old Photo Memory Photos (CC0 Public Domain) - (https://www.maxpixel.net/Nostalgia-Photographer-Old-Photo-Memory-Photos-256887)"
+        }
+      },
+      "solution": "gray",
+      "difficulty": 7
+    },{
+      "name": {
+        "en": "Pizza box with leftovers",
+        "es": "Caja de pizza con restos de comida"
+      },
+      "image": {
+        "url": "assets/images/products/pizza.jpg",
+        "license": {
+          "name": "CC0 Public Domain. Free for commercial use. Link referral required.",
+          "resource_url": "https://www.maxpixel.net/Pizza-The-Paper-Tray-Food-Take-Away-Faoodstf-940431",
+          "attribution": "Pizza (CC0 Public Domain) - (https://www.maxpixel.net/Pizza-The-Paper-Tray-Food-Take-Away-Faoodstf-940431)"
+        }
+      },
+      "solution": "gray",
+      "difficulty": 7
+    },{
+      "name": {
+        "en": "Fishbone",
+        "es": "Espinas de pescado"
+      },
+      "image": {
+        "url": "assets/images/products/fishbone.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/vectors/fish-skeleton-skeleton-fish-sea-312089",
+          "attribution": false
+        }
+      },
+      "solution": "brown",
+      "difficulty": 2
+    },{
+      "name": {
+        "en": "Bone",
+        "es": "Hueso"
+      },
+      "image": {
+        "url": "assets/images/products/bone.jpg",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/es/photos/cart%C3%ADlago-del-hueso-t-animales-1238297",
+          "attribution": false
+        }
+      },
+      "solution": "brown",
+      "difficulty": 2
+    },{
+      "name": {
+        "en": "Rotten peach",
+        "es": "Melocotón podrido"
+      },
+      "image": {
+        "url": "assets/images/products/peach.jpg",
+        "license": {
+          "name": "CC BY 2.0",
+          "resource_url": "https://www.flickr.com/photos/stevendepolo/6112312369",
+          "attribution": "Rotting Peach Moldy (CC BY 2.0) - Steven Depolo (https://www.flickr.com/photos/stevendepolo/6112312369)"
+        }
+      },
+      "solution": "brown",
+      "difficulty": 1
     }
   ]
 }
