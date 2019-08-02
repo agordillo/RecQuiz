@@ -931,6 +931,261 @@
       },
       "solution": "brown",
       "difficulty": 1
+    },{
+      "name": {
+        "en": "Orange peel",
+        "es": "Piel de una naranja"
+      },
+      "image": {
+        "url": "assets/images/products/orange_peel.jpg",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/es/photos/cáscara-cáscara-de-naranja-peel-3992177",
+          "attribution": false
+        }
+      },
+      "solution": "brown",
+      "difficulty": 1
+    },{
+      "name": {
+        "en": "Nutshells",
+        "es": "Cáscaras de frutos secos"
+      },
+      "image": {
+        "url": "assets/images/products/nutshell.jpg",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/es/photos/nuez-tuerca-c%C3%A1scara-c%C3%A1scara-de-nuez-3072681",
+          "attribution": false
+        }
+      },
+      "solution": "brown",
+      "difficulty": 1
+    },{
+      "name": {
+        "en": "Leftovers",
+        "es": "Restos de comida"
+      },
+      "image": {
+        "url": "assets/images/products/leftovers.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/vectors/dishes-dirty-housework-bowls-576376",
+          "attribution": false
+        }
+      },
+      "solution": "brown",
+      "difficulty": 1
+    },{
+      "name": {
+        "en": "Tea bags (without staples)",
+        "es": "Bolsitas de infusiones (sin grapas)"
+      },
+      "image": {
+        "url": "assets/images/products/tea_bags.jpg",
+        "license": {
+          "name": "CC0 Public Domain. Free for commercial use. Link referral required",
+          "resource_url": "https://www.maxpixel.net/Drinks-Warm-Bags-Infusions-Infusion-Tea-2023815",
+          "attribution": "Drinks Warm Bags Infusions Infusion Tea (CC0 Public Domain) - (https://www.maxpixel.net/Drinks-Warm-Bags-Infusions-Infusion-Tea-2023815)"
+        }
+      },
+      "solution": "brown",
+      "difficulty": 5
+    },{
+      "name": {
+        "en": "Coffee grounds",
+        "es": "Posos de café"
+      },
+      "image": {
+        "url": "assets/images/products/coffee_grounds.jpg",
+        "license": {
+          "name": "CC BY-SA 2.0",
+          "resource_url": "https://www.flickr.com/photos/avlxyz/3060373201",
+          "attribution": "Turkish Coffee grounds - degustation - Ottoman Cuisine (CC BY-SA 2.0) - Alpha (https://www.flickr.com/photos/avlxyz/3060373201)"
+        }
+      },
+      "solution": "brown",
+      "difficulty": 4
+    },{
+      "name": {
+        "en": "Garden waste",
+        "es": "Restos de jardinería"
+      },
+      "image": {
+        "url": "assets/images/products/garden_waste.jpg",
+        "license": {
+          "name": "CC0 Public Domain",
+          "resource_url": "https://pxhere.com/en/photo/1441073",
+          "attribution": false
+        }
+      },
+      "solution": "brown",
+      "difficulty": 2
+    },{
+      "name": {
+        "en": "Toothpicks",
+        "es": "Palillos de dientes"
+      },
+      "image": {
+        "url": "assets/images/products/toothpicks.jpg",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/es/photos/shish-kebab-brocheta-shish-kebab-60457",
+          "attribution": false
+        }
+      },
+      "solution": "brown",
+      "difficulty": 7
+    },{
+      "name": {
+        "en": "Ash and cigarette butts",
+        "es": "Ceniza y colillas"
+      },
+      "image": {
+        "url": "assets/images/products/finished_cigarette.jpg",
+        "license": {
+          "name": "CC BY-SA 3.0",
+          "resource_url": "https://es.wikipedia.org/wiki/Archivo:Finished_cigarette.JPG",
+          "attribution": "Finished cigarette (CC BY-SA 3.0) - Elph (https://es.wikipedia.org/wiki/Archivo:Finished_cigarette.JPG)"
+        }
+      },
+      "solution": "gray",
+      "difficulty": 4
+    },{
+      "name": {
+        "en": "Compostable bag",
+        "es": "Bolsa compostable"
+      },
+      "image": {
+        "url": "assets/images/products/compostable_bag.jpg",
+        "license": {
+          "name": "CC BY-SA 2.0",
+          "resource_url": "https://www.flickr.com/photos/47849240@N04/4400221513",
+          "attribution": "Coles bolsa compostable (CC BY-SA 2.0) - erostrend (https://www.flickr.com/photos/47849240@N04/4400221513)"
+        }
+      },
+      "solution": "brown",
+      "difficulty": 5
+    },{
+      "name": {
+        "en": "Diapers",
+        "es": "Pañales"
+      },
+      "image": {
+        "url": "assets/images/products/diaper.jpg",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/es/photos/absorbente-beb%C3%A9-cuarto-de-ba%C3%B1o-3509508",
+          "attribution": false
+        }
+      },
+      "solution": "gray",
+      "difficulty": 5
+    },{
+      "name": {
+        "en": "Sanitary towel",
+        "es": "Compresa"
+      },
+      "image": {
+        "url": "assets/images/products/sanitary_towel.jpg",
+        "license": {
+          "name": "CC BY-SA 3.0",
+          "resource_url": "https://ca.wikipedia.org/wiki/Fitxer:Maandverband.jpg",
+          "attribution": "Wingless sanitary towel (CC BY-SA 3.0) - Michiel1972 (https://ca.wikipedia.org/wiki/Fitxer:Maandverband.jpg)"
+        }
+      },
+      "solution": "gray",
+      "difficulty": 4
+    },{
+      "name": {
+        "en": "Ceramic mugs",
+        "es": "Tazas de cerámica"
+      },
+      "image": {
+        "url": "assets/images/products/coffee_mugs.jpg",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/es/photos/tazas-de-caf%C3%A9-t-marr%C3%B3n-beber-copa-459324",
+          "attribution": false
+        }
+      },
+      "solution": "gray",
+      "difficulty": 6
+    },{
+      "name": {
+        "en": "Porcelain plate",
+        "es": "Plato de porcelana"
+      },
+      "image": {
+        "url": "assets/images/products/porcelain_plate.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/es/vectors/placa-plato-cocina-blanco-159469",
+          "attribution": false
+        }
+      },
+      "solution": "gray",
+      "difficulty": 5
+    },{
+      "name": {
+        "en": "Light bulb",
+        "es": "Bombilla"
+      },
+      "image": {
+        "url": "assets/images/products/light_bulb.jpg",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/es/photos/bombilla-de-luz-luces-bokeh-energ%C3%ADa-3535435",
+          "attribution": false
+        }
+      },
+      "solution": "gray",
+      "difficulty": 4
+    },{
+      "name": {
+        "en": "Metal fork",
+        "es": "Tenedor metálico"
+      },
+      "image": {
+        "url": "assets/images/products/fork.jpg",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/es/photos/tenedor-comer-tenedor-de-metal-554064",
+          "attribution": false
+        }
+      },
+      "solution": "gray",
+      "difficulty": 5
+    },{
+      "name": {
+        "en": "Razor",
+        "es": "Maquinilla de afeitar"
+      },
+      "image": {
+        "url": "assets/images/products/razor.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/es/vectors/razor-blade-negro-agudo-corte-29950/",
+          "attribution": false
+        }
+      },
+      "solution": "gray",
+      "difficulty": 3
+    },{
+      "name": {
+        "en": "Yogurt pot",
+        "es": "Envase de yogur"
+      },
+      "image": {
+        "url": "assets/images/products/yogurt_pot.jpg",
+        "license": {
+          "name": "CC BY-SA 3.0",
+          "resource_url": "https://es.m.wikipedia.org/wiki/Archivo:Envase_de_yogur.jpg",
+          "attribution": "Envase de yogur (CC BY-SA 3.0) - Hispalois (https://es.m.wikipedia.org/wiki/Archivo:Envase_de_yogur.jpg)"
+        }
+      },
+      "solution": "yellow",
+      "difficulty": 3
     }
   ]
 }
