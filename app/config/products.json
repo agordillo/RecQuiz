@@ -1186,6 +1186,306 @@
       },
       "solution": "yellow",
       "difficulty": 3
+    },{
+      "name": {
+        "en": "Medicine",
+        "es": "Medicamento"
+      },
+      "image": {
+        "url": "assets/images/products/medicine.jpg",
+        "license": {
+          "name": "CC0 Public Domain",
+          "resource_url": "https://www.publicdomainpictures.net/en/view-image.php?image=8882&picture=medicine",
+          "attribution": false
+        }
+      },
+      "solution": "sigre",
+      "difficulty": 5
+    },{
+      "name": {
+        "en": "Medicine (including box, leaflet and blister)",
+        "es": "Medicamento (incluyendo la caja, el prospecto y el blíster)"
+      },
+      "image": {
+        "url": "assets/images/products/medicine_full.jpg",
+        "license": {
+          "name": "CC BY-SA 3.0",
+          "resource_url": "https://commons.wikimedia.org/wiki/File:Generic_paracetamol_dprk.jpg",
+          "attribution": "Generic paracetamol dprk (CC BY-SA 3.0) - Kristoferb (talk) (https://commons.wikimedia.org/wiki/File:Generic_paracetamol_dprk.jpg)"
+        }
+      },
+      "solution": "sigre",
+      "difficulty": 7
+    },{
+      "name": {
+        "en": "Pills",
+        "es": "Pastillas"
+      },
+      "image": {
+        "url": "assets/images/products/pills.jpg",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/es/photos/paracetamol-medicaci%C3%B3n-pastillas-315875",
+          "attribution": false
+        }
+      },
+      "solution": "sigre",
+      "difficulty": 5
+    },{
+      "name": {
+        "en": "Thermometer",
+        "es": "Termómetro"
+      },
+      "image": {
+        "url": "assets/images/products/thermometer.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/vectors/thermometer-temperature-fever-309120",
+          "attribution": false
+        }
+      },
+      "solution": "facility",
+      "difficulty": 8
+    },{
+      "name": {
+        "en": "DVD",
+        "es": "DVD"
+      },
+      "image": {
+        "url": "assets/images/products/DVDs.jpg",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/photos/dvd-blank-data-computer-2418366",
+          "attribution": false
+        }
+      },
+      "solution": "facility",
+      "difficulty": 5
+    },{
+      "name": {
+        "en": "Fluorescent tube",
+        "es": "Tubo fluorescente"
+      },
+      "image": {
+        "url": "assets/images/products/fluorescent_tube.jpg",
+        "license": {
+          "name": "CC BY-SA 3.0",
+          "resource_url": "https://commons.wikimedia.org/wiki/File:Old_USSR_fluorescent_lamp.JPG",
+          "attribution": "Old Soviet fluorescent lamp (CC BY-SA 3.0) - Dmitry G (https://commons.wikimedia.org/wiki/File:Old_USSR_fluorescent_lamp.JPG)"
+        }
+      },
+      "solution": "facility",
+      "difficulty": 6
+    },{
+      "name": {
+        "en": "Olive oil",
+        "es": "Aceite de oliva"
+      },
+      "image": {
+        "url": "assets/images/products/olive_oil.jpg",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/photos/olive-oil-salad-dressing-cooking-968657",
+          "attribution": false
+        }
+      },
+      "solution": "facility",
+      "difficulty": 5
+    },{
+      "name": {
+        "en": "Laptop",
+        "es": "Ordenador portátil"
+      },
+      "image": {
+        "url": "assets/images/products/laptop.jpg",
+        "license": {
+          "name": "CC0 Public Domain",
+          "resource_url": "https://www.publicdomainpictures.net/es/view-image.php?image=910&picture=laptop",
+          "attribution": false
+        }
+      },
+      "solution": "facility",
+      "difficulty": 4
+    },{
+      "name": {
+        "en": "Fridge",
+        "es": "Frigorífico"
+      },
+      "image": {
+        "url": "assets/images/products/fridge.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/vectors/refrigerator-fridge-cooling-cold-158634",
+          "attribution": false
+        }
+      },
+      "solution": "facility",
+      "difficulty": 3
+    },{
+      "name": {
+        "en": "Smartphone",
+        "es": "Smartphone"
+      },
+      "image": {
+        "url": "assets/images/products/smartphone.jpg",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/photos/smartphone-screen-android-1957740",
+          "attribution": false
+        }
+      },
+      "solution": "facility",
+      "difficulty": 5
+    },{
+      "name": {
+        "en": "Toaster",
+        "es": "Tostadora"
+      },
+      "image": {
+        "url": "assets/images/products/toaster.jpg",
+        "license": {
+          "name": "CC0 Public Domain",
+          "resource_url": "https://www.publicdomainpictures.net/en/view-image.php?image=118411&picture=grey-toaster",
+          "attribution": false
+        }
+      },
+      "solution": "facility",
+      "difficulty": 5
+    },{
+      "name": {
+        "en": "Hair dryer",
+        "es": "Secador de pelo"
+      },
+      "image": {
+        "url": "assets/images/products/hair_dryer.jpg",
+        "license": {
+          "name": "CC0 Public Domain",
+          "resource_url": "https://www.publicdomainpictures.net/en/view-image.php?image=224542&picture=hair-dryer",
+          "attribution": false
+        }
+      },
+      "solution": "facility",
+      "difficulty": 5
+    },{
+      "name": {
+        "en": "Washing machine",
+        "es": "Lavadora"
+      },
+      "image": {
+        "url": "assets/images/products/washing_machine.jpg",
+        "license": {
+          "name": "CC BY 2.0",
+          "resource_url": "https://www.flickr.com/photos/aquamech-utah/24776531510",
+          "attribution": "Washing machine (CC BY 2.0) - Aqua Mechanical (https://www.flickr.com/photos/aquamech-utah/24776531510)"
+        }
+      },
+      "solution": "facility",
+      "difficulty": 3
+    },{
+      "name": {
+        "en": "Toy with electronic components",
+        "es": "Juguete con componentes electrónicos"
+      },
+      "image": {
+        "url": "assets/images/products/tamagotchi.jpg",
+        "license": {
+          "name": "CC BY-SA 3.0",
+          "resource_url": "https://es.m.wikipedia.org/wiki/Archivo:Tamagotchi_0124_ubt.jpeg",
+          "attribution": "Tamagotchi (CC BY-SA 3.0) - Tomasz Sienicki (https://es.m.wikipedia.org/wiki/Archivo:Tamagotchi_0124_ubt.jpeg)"
+        }
+      },
+      "solution": "facility",
+      "difficulty": 6
+    },{
+      "name": {
+        "en": "Paint bucket",
+        "es": "Bote de pintura"
+      },
+      "image": {
+        "url": "assets/images/products/paint_bucket.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/vectors/paint-pot-pot-color-bucket-157812",
+          "attribution": false
+        }
+      },
+      "solution": "facility",
+      "difficulty": 5
+    },{
+      "name": {
+        "en": "Toner and ink cartridges",
+        "es": "Tóner y cartuchos de tinta"
+      },
+      "image": {
+        "url": "assets/images/products/toner.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/illustrations/toner-cartridges-powder-ink-cmyk-3324114",
+          "attribution": false
+        }
+      },
+      "solution": "facility",
+      "difficulty": 6
+    },{
+      "name": {
+        "en": "Furniture",
+        "es": "Muebles"
+      },
+      "image": {
+        "url": "assets/images/products/chair.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/illustrations/chair-oversized-furniture-green-3961592",
+          "attribution": false
+        }
+      },
+      "solution": "facility",
+      "difficulty": 5
+    },{
+      "name": {
+        "en": "Tyre",
+        "es": "Neumático"
+      },
+      "image": {
+        "url": "assets/images/products/tyre.jpg",
+        "license": {
+          "name": "CC0 Public Domain",
+          "resource_url": "https://www.publicdomainpictures.net/en/view-image.php?image=184050&picture=tyre-on-side-of-jetty",
+          "attribution": false
+        }
+      },
+      "solution": "facility",
+      "difficulty": 5
+    },{
+      "name": {
+        "en": "TV",
+        "es": "Televisor"
+      },
+      "image": {
+        "url": "assets/images/products/TV.jpg",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "resource_url": "https://commons.wikimedia.org/wiki/File:Eeen_television.jpg",
+          "attribution": "Television (CC BY-SA 4.0) - NeoMeesje (https://commons.wikimedia.org/wiki/File:Eeen_television.jpg)"
+        }
+      },
+      "solution": "facility",
+      "difficulty": 4
+    },{
+      "name": {
+        "en": "Mattress",
+        "es": "Colchón"
+      },
+      "image": {
+        "url": "assets/images/products/mattress.jpg",
+        "license": {
+          "name": "CC BY 2.5",
+          "resource_url": "https://commons.wikimedia.org/wiki/File:Pillowtop-mattress.jpg",
+          "attribution": "A pillowtop mattress (CC BY 2.5) - Jeffrey M. Vinocur (https://commons.wikimedia.org/wiki/File:Pillowtop-mattress.jpg)"
+        }
+      },
+      "solution": "facility",
+      "difficulty": 5
     }
   ]
 }
