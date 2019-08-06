@@ -56,13 +56,24 @@ div.header_wrapper img.headericon {
   opacity: 0.5;
 }
 
-div.header_wrapper img.headericon[disabled] {
+div.header_wrapper img.headericon.active {
   opacity: 1;
+}
+
+div.header_wrapper img.headericon[disabled] {
   cursor: default;
+}
+
+div.header_wrapper img.headericon.info {
+  right: 10%;
 }
 
 div.header_wrapper img.headericon.learning {
   right: 5%;
+}
+
+div.header_wrapper img.headericon.about {
+  right: 0%;
 }
 
 #heading {

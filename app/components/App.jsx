@@ -15,6 +15,7 @@ import FinishScreen from './FinishScreen.jsx';
 import Instructions from './Instructions.jsx';
 import Quiz from './Quiz.jsx';
 import Learning from './Learning.jsx';
+import About from './About.jsx';
 
 import {updateQuiz,addObjectives} from './../reducers/actions';
 
@@ -230,6 +231,11 @@ export class App extends React.Component {
             <FinishScreen dispatch={this.props.dispatch} user_profile={this.props.user_profile} tracking={this.props.tracking} config={GLOBAL_CONFIG} I18n={I18n}/>
           );
           break;
+        case 4:
+          //About screen
+          appContent = (
+            <About dispatch={this.props.dispatch} user_profile={this.props.user_profile} tracking={this.props.tracking} config={GLOBAL_CONFIG} I18n={I18n}/>
+          );
         default:
           //Default
       }

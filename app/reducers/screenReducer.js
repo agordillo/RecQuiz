@@ -19,4 +19,5 @@ export default screenReducer;
   SCREEN 1 = QUIZ
   SCREEN 2 = LEARNING
   SCREEN 3 = FINISH SCREEN
+  SCREEN 4 = ABOUT SCREEN
 */

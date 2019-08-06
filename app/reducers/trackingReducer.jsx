@@ -70,6 +70,13 @@ function trackingReducer(state = {}, action){
       newState.finished = action.finished;
     }
     return newState;
+  case 'CHANGE_SCREEN':
+    if((action.screen === 1)&&(state.started === false)){
+      newState = JSON.parse(JSON.stringify(state));
+      newState.started = true;
+      return newState;
+    }
+    return state;
   default:
     return state;
   }
