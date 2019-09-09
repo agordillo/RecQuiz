@@ -24,7 +24,9 @@ export class App extends React.Component {
     super(props);
     LocalStorage.init();
     I18n.init();
-
+    if(typeof LocalStorage.getSetting("deviceid") === "undefined"){
+      LocalStorage.saveSetting("deviceid",Math.random().toString(36).substr(2, 13));
+    }
     let screen = this.props.screen;
     let showInstructions = !((GLOBAL_CONFIG.skip_instructions===true)||(LocalStorage.getSetting("skip_instructions")===true));
     if((screen===0)&&(showInstructions===false)&&(this.props.tracking.started===false)){
