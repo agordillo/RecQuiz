@@ -230,7 +230,7 @@ export class App extends React.Component {
         case 4:
           //About screen
           appContent = (
-            <About dispatch={this.props.dispatch} user_profile={this.props.user_profile} tracking={this.props.tracking} config={GLOBAL_CONFIG} I18n={I18n}/>
+            <About products={this.props.quiz.all_products} dispatch={this.props.dispatch} user_profile={this.props.user_profile} tracking={this.props.tracking} config={GLOBAL_CONFIG} I18n={I18n}/>
           );
         default:
           //Default
