@@ -17,13 +17,19 @@ import Quiz from './Quiz.jsx';
 import Learning from './Learning.jsx';
 import About from './About.jsx';
 
-import {updateQuiz,addObjectives} from './../reducers/actions';
+import {updateQuiz,addObjectives,changeScreen} from './../reducers/actions';
 
 export class App extends React.Component {
   constructor(props){
     super(props);
     LocalStorage.init();
     I18n.init();
+
+    let screen = this.props.screen;
+    let showInstructions = !((GLOBAL_CONFIG.skip_instructions===true)||(LocalStorage.getSetting("skip_instructions")===true));
+    if((screen===0)&&(showInstructions===false)&&(this.props.tracking.started===false)){
+      this.props.dispatch(changeScreen(1));
+    }
   }
 
   componentDidMount(){
@@ -190,27 +196,17 @@ export class App extends React.Component {
   }
 
   render(){
-    let showInstructions = !((GLOBAL_CONFIG.skip_instructions===true)||(LocalStorage.getSetting("skip_instructions")===true));
-
     let appHeader = (
-      <Header dispatch={this.props.dispatch} screen={this.props.screen} user_profile={this.props.user_profile} tracking={this.props.tracking} config={GLOBAL_CONFIG} I18n={I18n} showInstructions={showInstructions}/>
+      <Header dispatch={this.props.dispatch} screen={this.props.screen} user_profile={this.props.user_profile} tracking={this.props.tracking} config={GLOBAL_CONFIG} I18n={I18n}/>
     );
     let appContent = "";
 
     if((this.props.wait_for_user_profile !== true)&&(this.props.quiz.current_products.length > 0)){
-      
-      let screen = this.props.screen;
-      if(screen===0){
-        if(showInstructions===false){
-          screen=1;
-        }
-      }
-
-      switch(screen){
+      switch(this.props.screen){
         case 0:
           //Instructions
           appContent = (
-            <Instructions dispatch={this.props.dispatch} user_profile={this.props.user_profile} tracking={this.props.tracking} config={GLOBAL_CONFIG} I18n={I18n}/>
+            <Instructions dispatch={this.props.dispatch} user_profile={this.props.user_profile} tracking={this.props.tracking} config={GLOBAL_CONFIG} I18n={I18n} LocalStorage={LocalStorage}/>
           );
           break;
         case 1:

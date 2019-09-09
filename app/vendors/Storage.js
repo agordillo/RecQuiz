@@ -91,3 +91,11 @@ export function saveIncorrectProduct(product){
   }
   return this.saveSetting("incorrect_products",incorrectProducts);
 }
+
+export function clear(){
+  if(ls_supported === false){
+    return undefined;
+  }
+  localStorage.removeItem("RecQuiz");
+  return undefined;
+}

@@ -9,10 +9,18 @@ import './../assets/scss/instructions.scss';
 export default class Instructions extends React.Component {
   constructor(props){
     super(props);
+    this.state = {instructionsCheckbox: (this.props.LocalStorage.getSetting("skip_instructions")===true ? true : false)};
+    this.handleInstructionsCheckox = this.handleInstructionsCheckox.bind(this);
   }
   componentDidMount(){
   }
+  handleInstructionsCheckox(){
+    this.setState({instructionsCheckbox: !this.state.instructionsCheckbox});
+  }
   onClick(){
+    if(this.state.instructionsCheckbox===true){
+      this.props.LocalStorage.saveSetting("skip_instructions",true);
+    }
     this.props.dispatch(changeScreen(this.props.tracking.finished ? 3 : 1));
   }
   render(){
@@ -41,7 +49,9 @@ export default class Instructions extends React.Component {
             {i6}
             {i7}
           </ul>
-          <br/><br/>
+          <div className="instructions_checkbox">
+            <ul><li><input type="checkbox" onChange={this.handleInstructionsCheckox} checked={this.state.instructionsCheckbox}/><span>{this.props.I18n.getTrans("i.instructions_checkbox")}</span></li></ul>
+          </div>
           <Button variant="primary" onClick={this.onClick.bind(this)}>{this.props.I18n.getTrans("i.instructions_button_ok")}</Button>
         </Container>
       </Jumbotron>

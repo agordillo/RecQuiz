@@ -16,7 +16,6 @@ export default class Header extends React.Component {
     if(this.props.screen !== 0){
       this.props.dispatch(changeScreen(0));
     } else {
-
       this.props.dispatch(changeScreen(this.props.tracking.finished ? 3 : (this.props.tracking.started ? 1 : 0)));
     }
   }

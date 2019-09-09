@@ -25,6 +25,7 @@ export let LOCALES = {
     "i.instructions_6": "Puedes volver a ver estas instrucciones pulsando sobre el icono <img src='assets/images/info.png'/>.",
     "i.instructions_7": "Para regresar al cuestionario desde cualquier pantalla, simplemente pulsa sobre el logo de la aplicación <img class='logo_in_instructions' src='assets/images/RecQuizLogo.png'/>.",
     "i.instructions_button_ok": "Entendido",
+    "i.instructions_checkbox": "No volver a mostrar estas instrucciones al inicio",
     "i.disabled_next_title": "Debes seleccionar una respuesta antes de avanzar a la siguiente pregunta",
     "i.disabled_finish_title": "Debes seleccionar una respuesta antes de terminar el cuestionario",
   },
