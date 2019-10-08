@@ -10,9 +10,6 @@ export default class ProductQuestion extends React.Component {
   onDumpsterSelected(dumpster){
     this.props.onDumpsterSelected(dumpster);
   }
-  onNextQuestion(){
-    this.props.onNextQuestion();
-  }
   render(){
     let product = this.props.quiz.current_products[this.props.quiz.current_product_index - 1];
     let isLastQuestion = (this.props.quiz.current_product_index === this.props.quiz.current_products.length);
@@ -26,7 +23,7 @@ export default class ProductQuestion extends React.Component {
       <div className="question">
         <Product I18n={this.props.I18n} product={product}/>
         <div className="dumpsters_wrapper">{dumpsters}</div>
-        <QuestionButtons I18n={this.props.I18n} onNextQuestion={this.onNextQuestion.bind(this)} answered={this.props.answered} quizCompleted={this.props.quizCompleted} allow_finish={this.props.isLastQuestion}/>
+        <QuestionButtons I18n={this.props.I18n} onNextQuestion={this.props.onNextQuestion} answered={this.props.answered} quizCompleted={this.props.quizCompleted} allow_finish={this.props.isLastQuestion}/>
       </div>
     );
   }

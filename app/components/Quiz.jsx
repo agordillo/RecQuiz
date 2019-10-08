@@ -62,9 +62,9 @@ export default class Quiz extends React.Component {
 
     // Calculate score
     let score = 0;
-    if(dumpster === currentProduct){
+    if(dumpster === currentProduct.solution){
       //Correct
-      score = this.props.objective.score;
+      score = objective.score;
     } else {
       //Incorrect (score=0)
       this.props.LocalStorage.saveIncorrectProduct(currentProduct);
