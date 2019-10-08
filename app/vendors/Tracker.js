@@ -1,9 +1,15 @@
 import {GLOBAL_CONFIG} from '../config/config.js';
 import * as LocalStorage from '../vendors/Storage.js';
+import $ from 'jquery';
 
+let user_agent = undefined;
 let sessionData = {actions: []};
 
 export function init(){
+  try {
+    user_agent = navigator.userAgent;
+  } catch(e){};
+
   sessionData.deviceid = LocalStorage.getSetting("deviceid");
   sessionData.timestamp = new Date().getTime();
   sessionData.config = GLOBAL_CONFIG;
@@ -66,4 +72,27 @@ function getParentURLs(win,URLs){
 
 function onBeforeUnload(event){
   // LocalStorage.saveSetting("sessionData",sessionData); //Testing
+
+  if(typeof GLOBAL_CONFIG.tracker === "undefined"){
+    return;
+  }
+  _sendTrackedData();
 }
+
+function _sendTrackedData(){
+  $.ajax({
+    type    : 'POST',
+    url     : GLOBAL_CONFIG.tracker.url,
+    data    : _composeTrackingObject(),
+    async : false
+  });
+};
+
+function _composeTrackingObject(){
+  return {
+    "app_id": GLOBAL_CONFIG.tracker.app_id,
+    "app_key": GLOBAL_CONFIG.tracker.app_key,
+    "user_agent": user_agent,
+    "data": sessionData
+  }
+};
