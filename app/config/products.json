@@ -1,6 +1,7 @@
 {
   "products": [
     {
+      "id": 1,
       "name": {
         "en": "Newspaper",
         "es": "Periódico"
@@ -17,6 +18,7 @@
       "difficulty": 1
     },
     {
+      "id": 2,
       "name": {
         "en": "Wine bottle",
         "es": "Botella de vino"
@@ -32,6 +34,7 @@
       "solution": "green",
       "difficulty": 1
     },{
+      "id": 3,
       "name": {
         "en": "Plastic bottle",
         "es": "Botella de plástico"
@@ -47,6 +50,7 @@
       "solution": "yellow",
       "difficulty": 1
     },{
+      "id": 4,
       "name": {
         "en": "Milk box",
         "es": "Brik de leche"
@@ -62,6 +66,7 @@
       "solution": "yellow",
       "difficulty": 1
     },{
+      "id": 5,
       "name": {
         "en": "Juice box",
         "es": "Brik de zumo"
@@ -77,6 +82,7 @@
       "solution": "yellow",
       "difficulty": 1
     },{
+      "id": 6,
       "name": {
         "en": "Cork Tray",
         "es": "Bandeja de corcho blanco"
@@ -92,6 +98,7 @@
       "solution": "yellow",
       "difficulty": 3
     },{
+      "id": 7,
       "name": {
         "en": "Egg carton box",
         "es": "Huevera de cartón"
@@ -107,6 +114,7 @@
       "solution": "blue",
       "difficulty": 2
     },{
+      "id": 8,
       "name": {
         "en": "Egg plastic box",
         "es": "Huevera de plástico"
@@ -122,6 +130,7 @@
       "solution": "yellow",
       "difficulty": 2
     },{
+      "id": 9,
       "name": {
         "en": "Plastic lid",
         "es": "Tapón de plástico"
@@ -137,6 +146,7 @@
       "solution": "yellow",
       "difficulty": 1
     },{
+      "id": 10,
       "name": {
         "en": "Fruit mesh",
         "es": "Malla de plásico para frutas"
@@ -152,6 +162,7 @@
       "solution": "yellow",
       "difficulty": 5
     },{
+      "id": 11,
       "name": {
         "en": "Cork lid",
         "es": "Tapón de corcho"
@@ -167,6 +178,7 @@
       "solution": "yellow",
       "difficulty": 4
     },{
+      "id": 12,
       "name": {
         "en": "Strawberry wood box",
         "es": "Caja de madera para fresas"
@@ -182,6 +194,7 @@
       "solution": "yellow",
       "difficulty": 8
     },{
+      "id": 13,
       "name": {
         "en": "Plastic bag",
         "es": "Bolsa de plástico"
@@ -197,6 +210,7 @@
       "solution": "yellow",
       "difficulty": 1
     },{
+      "id": 14,
       "name": {
         "en": "Bleach bottle",
         "es": "Botella de lejía"
@@ -212,6 +226,7 @@
       "solution": "yellow",
       "difficulty": 2
     },{
+      "id": 15,
       "name": {
         "en": "Shampoo bottle",
         "es": "Botella de champú"
@@ -227,6 +242,7 @@
       "solution": "yellow",
       "difficulty": 2
     },{
+      "id": 16,
       "name": {
         "en": "Aerosol can (empty)",
         "es": "Aerosol (vacío)"
@@ -242,6 +258,7 @@
       "solution": "yellow",
       "difficulty": 3
     },{
+      "id": 17,
       "name": {
         "en": "Can of soda",
         "es": "Lata de refresco"
@@ -257,6 +274,7 @@
       "solution": "yellow",
       "difficulty": 1
     },{
+      "id": 18,
       "name": {
         "en": "Canned food",
         "es": "Lata de conservas"
@@ -272,6 +290,7 @@
       "solution": "yellow",
       "difficulty": 2
     },{
+      "id": 19,
       "name": {
         "en": "Bottle of soda",
         "es": "Botella de refresco"
@@ -287,6 +306,7 @@
       "solution": "green",
       "difficulty": 1
     },{
+      "id": 20,
       "name": {
         "en": "Metal lid",
         "es": "Tapa de metal"
@@ -302,6 +322,7 @@
       "solution": "yellow",
       "difficulty": 3
     },{
+      "id": 21,
       "name": {
         "en": "Aluminium foil",
         "es": "Papel de aluminio"
@@ -317,6 +338,7 @@
       "solution": "yellow",
       "difficulty": 4
     },{
+      "id": 22,
       "name": {
         "en": "Vacuum package",
         "es": "Envase al vacío"
@@ -332,6 +354,7 @@
       "solution": "yellow",
       "difficulty": 3
     },{
+      "id": 23,
       "name": {
         "en": "Clingfilm",
         "es": "Film transparente"
@@ -347,6 +370,7 @@
       "solution": "yellow",
       "difficulty": 3
     },{
+      "id": 24,
       "name": {
         "en": "Bubblewrap",
         "es": "Plástico de burbujas"
@@ -362,6 +386,7 @@
       "solution": "yellow",
       "difficulty": 4
     },{
+      "id": 25,
       "name": {
         "en": "Aluminum tray",
         "es": "Bandeja de aluminio"
@@ -377,6 +402,7 @@
       "solution": "yellow",
       "difficulty": 4
     },{
+      "id": 26,
       "name": {
         "en": "Blister pack (empty)",
         "es": "Envase tipo blíster (vacio)"
@@ -392,6 +418,7 @@
       "solution": "yellow",
       "difficulty": 3
     },{
+      "id": 27,
       "name": {
         "en": "Plastic comb",
         "es": "Peine de plástico"
@@ -407,6 +434,7 @@
       "solution": "gray",
       "difficulty": 7
     },{
+      "id": 28,
       "name": {
         "en": "Plastic hanger",
         "es": "Percha de plástico"
@@ -422,6 +450,7 @@
       "solution": "gray",
       "difficulty": 6
     },{
+      "id": 29,
       "name": {
         "en": "Toothbrush",
         "es": "Cepillo de dientes"
@@ -437,6 +466,7 @@
       "solution": "gray",
       "difficulty": 5
     },{
+      "id": 30,
       "name": {
         "en": "Plastic duck",
         "es": "Patito de plástico"
@@ -452,6 +482,7 @@
       "solution": "gray",
       "difficulty": 6
     },{
+      "id": 31,
       "name": {
         "en": "Feeding Bottle",
         "es": "Biberón"
@@ -467,6 +498,7 @@
       "solution": "gray",
       "difficulty": 6
     },{
+      "id": 32,
       "name": {
         "en": "Pacifier",
         "es": "Chupete"
@@ -482,6 +514,7 @@
       "solution": "gray",
       "difficulty": 6
     },{
+      "id": 33,
       "name": {
         "en": "Plastic spatula",
         "es": "Espátula de plástico"
@@ -497,6 +530,7 @@
       "solution": "gray",
       "difficulty": 6
     },{
+      "id": 34,
       "name": {
         "en": "Plastic lunch container (empty)",
         "es": "Envase de plástico para comida (vacio)"
@@ -512,6 +546,7 @@
       "solution": "yellow",
       "difficulty": 4
     },{
+      "id": 35,
       "name": {
         "en": "Plastic tupperware",
         "es": "Táper de plástico"
@@ -527,6 +562,7 @@
       "solution": "gray",
       "difficulty": 6
     },{
+      "id": 36,
       "name": {
         "en": "Bottle of aftershave",
         "es": "Frasco de aftershave"
@@ -542,6 +578,7 @@
       "solution": "green",
       "difficulty": 4
     },{
+      "id": 37,
       "name": {
         "en": "Jar bottle (empty)",
         "es": "Tarro de mermelada (vacío)"
@@ -557,6 +594,7 @@
       "solution": "green",
       "difficulty": 4
     },{
+      "id": 38,
       "name": {
         "en": "Canning jar",
         "es": "Tarro de conservas"
@@ -572,6 +610,7 @@
       "solution": "green",
       "difficulty": 4
     },{
+      "id": 39,
       "name": {
         "en": "Glass of a mirror",
         "es": "Cristal de un espejo"
@@ -587,6 +626,7 @@
       "solution": "gray",
       "difficulty": 7
     },{
+      "id": 40,
       "name": {
         "en": "Glass of a window",
         "es": "Cristal de una ventana"
@@ -602,6 +642,7 @@
       "solution": "gray",
       "difficulty": 7
     },{
+      "id": 41,
       "name": {
         "en": "Bottle of perfume",
         "es": "Frasco de perfume"
@@ -617,6 +658,7 @@
       "solution": "green",
       "difficulty": 4
     },{
+      "id": 42,
       "name": {
         "en": "Glass jar",
         "es": "Tarro de vidrio"
@@ -632,6 +674,7 @@
       "solution": "green",
       "difficulty": 3
     },{
+      "id": 43,
       "name": {
         "en": "Shoe box",
         "es": "Caja de zapatos"
@@ -647,6 +690,7 @@
       "solution": "blue",
       "difficulty": 3
     },{
+      "id": 44,
       "name": {
         "en": "Cereal box",
         "es": "Caja de cereales"
@@ -662,6 +706,7 @@
       "solution": "blue",
       "difficulty": 3
     },{
+      "id": 45,
       "name": {
         "en": "Paper sheet",
         "es": "Hoja de papel"
@@ -677,6 +722,7 @@
       "solution": "blue",
       "difficulty": 2
     },{
+      "id": 46,
       "name": {
         "en": "Notebook",
         "es": "Cuaderno"
@@ -692,6 +738,7 @@
       "solution": "blue",
       "difficulty": 4
     },{
+      "id": 47,
       "name": {
         "en": "Envelope",
         "es": "Sobre"
@@ -707,6 +754,7 @@
       "solution": "blue",
       "difficulty": 3
     },{
+      "id": 48,
       "name": {
         "en": "Propaganda brochure",
         "es": "Folleto de propaganda"
@@ -722,6 +770,7 @@
       "solution": "blue",
       "difficulty": 5
     },{
+      "id": 49,
       "name": {
         "en": "Wrapping paper",
         "es": "Papel de envolver"
@@ -737,6 +786,7 @@
       "solution": "blue",
       "difficulty": 4
     },{
+      "id": 50,
       "name": {
         "en": "Magazine",
         "es": "Revista"
@@ -752,6 +802,7 @@
       "solution": "blue",
       "difficulty": 3
     },{
+      "id": 51,
       "name": {
         "en": "Toiler paper tube",
         "es": "Canuto de un rollo de papel higiénico"
@@ -767,6 +818,7 @@
       "solution": "blue",
       "difficulty": 3
     },{
+      "id": 52,
       "name": {
         "en": "Cardboard Box",
         "es": "Caja de cartón"
@@ -782,6 +834,7 @@
       "solution": "blue",
       "difficulty": 3
     },{
+      "id": 53,
       "name": {
         "en": "Cartoon base of a battery blister pack",
         "es": "Base de cartón de un paquete de pilas"
@@ -797,6 +850,7 @@
       "solution": "blue",
       "difficulty": 5
     },{
+      "id": 54,
       "name": {
         "en": "Batteries",
         "es": "Pilas"
@@ -812,6 +866,7 @@
       "solution": "facility",
       "difficulty": 5
     },{
+      "id": 55,
       "name": {
         "en": "Cellophane",
         "es": "Papel celofan"
@@ -827,6 +882,7 @@
       "solution": "gray",
       "difficulty": 8
     },{
+      "id": 56,
       "name": {
         "en": "Paper tableware",
         "es": "Vajilla de papel"
@@ -842,6 +898,7 @@
       "solution": "gray",
       "difficulty": 8
     },{
+      "id": 57,
       "name": {
         "en": "Sticker",
         "es": "Pegatina"
@@ -857,6 +914,7 @@
       "solution": "gray",
       "difficulty": 6
     },{
+      "id": 58,
       "name": {
         "en": "Photo",
         "es": "Foto"
@@ -872,6 +930,7 @@
       "solution": "gray",
       "difficulty": 7
     },{
+      "id": 59,
       "name": {
         "en": "Pizza box with leftovers",
         "es": "Caja de pizza con restos de comida"
@@ -887,6 +946,7 @@
       "solution": "gray",
       "difficulty": 7
     },{
+      "id": 60,
       "name": {
         "en": "Fishbone",
         "es": "Espinas de pescado"
@@ -902,6 +962,7 @@
       "solution": "brown",
       "difficulty": 2
     },{
+      "id": 61,
       "name": {
         "en": "Bone",
         "es": "Hueso"
@@ -917,6 +978,7 @@
       "solution": "brown",
       "difficulty": 2
     },{
+      "id": 62,
       "name": {
         "en": "Rotten peach",
         "es": "Melocotón podrido"
@@ -932,6 +994,7 @@
       "solution": "brown",
       "difficulty": 1
     },{
+      "id": 63,
       "name": {
         "en": "Orange peel",
         "es": "Piel de una naranja"
@@ -947,6 +1010,7 @@
       "solution": "brown",
       "difficulty": 1
     },{
+      "id": 64,
       "name": {
         "en": "Nutshells",
         "es": "Cáscaras de frutos secos"
@@ -962,6 +1026,7 @@
       "solution": "brown",
       "difficulty": 1
     },{
+      "id": 65,
       "name": {
         "en": "Leftovers",
         "es": "Restos de comida"
@@ -977,6 +1042,7 @@
       "solution": "brown",
       "difficulty": 1
     },{
+      "id": 66,
       "name": {
         "en": "Tea bags (without staples)",
         "es": "Bolsitas de infusiones (sin grapas)"
@@ -992,6 +1058,7 @@
       "solution": "brown",
       "difficulty": 5
     },{
+      "id": 67,
       "name": {
         "en": "Coffee grounds",
         "es": "Posos de café"
@@ -1007,6 +1074,7 @@
       "solution": "brown",
       "difficulty": 4
     },{
+      "id": 68,
       "name": {
         "en": "Garden waste",
         "es": "Restos de jardinería"
@@ -1022,6 +1090,7 @@
       "solution": "brown",
       "difficulty": 2
     },{
+      "id": 69,
       "name": {
         "en": "Toothpicks",
         "es": "Palillos de dientes"
@@ -1037,6 +1106,7 @@
       "solution": "brown",
       "difficulty": 7
     },{
+      "id": 70,
       "name": {
         "en": "Ash and cigarette butts",
         "es": "Ceniza y colillas"
@@ -1052,6 +1122,7 @@
       "solution": "gray",
       "difficulty": 4
     },{
+      "id": 71,
       "name": {
         "en": "Compostable bag",
         "es": "Bolsa compostable"
@@ -1067,6 +1138,7 @@
       "solution": "brown",
       "difficulty": 5
     },{
+      "id": 72,
       "name": {
         "en": "Diapers",
         "es": "Pañales"
@@ -1082,6 +1154,7 @@
       "solution": "gray",
       "difficulty": 5
     },{
+      "id": 73,
       "name": {
         "en": "Sanitary towel",
         "es": "Compresa"
@@ -1097,6 +1170,7 @@
       "solution": "gray",
       "difficulty": 4
     },{
+      "id": 74,
       "name": {
         "en": "Ceramic mugs",
         "es": "Tazas de cerámica"
@@ -1112,6 +1186,7 @@
       "solution": "gray",
       "difficulty": 6
     },{
+      "id": 75,
       "name": {
         "en": "Porcelain plate",
         "es": "Plato de porcelana"
@@ -1127,6 +1202,7 @@
       "solution": "gray",
       "difficulty": 5
     },{
+      "id": 76,
       "name": {
         "en": "Light bulb",
         "es": "Bombilla"
@@ -1142,6 +1218,7 @@
       "solution": "gray",
       "difficulty": 4
     },{
+      "id": 77,
       "name": {
         "en": "Metal fork",
         "es": "Tenedor metálico"
@@ -1157,6 +1234,7 @@
       "solution": "gray",
       "difficulty": 5
     },{
+      "id": 78,
       "name": {
         "en": "Razor",
         "es": "Maquinilla de afeitar"
@@ -1172,6 +1250,7 @@
       "solution": "gray",
       "difficulty": 3
     },{
+      "id": 79,
       "name": {
         "en": "Yogurt pot",
         "es": "Envase de yogur"
@@ -1187,6 +1266,7 @@
       "solution": "yellow",
       "difficulty": 3
     },{
+      "id": 80,
       "name": {
         "en": "Medicine",
         "es": "Medicamento"
@@ -1202,6 +1282,7 @@
       "solution": "sigre",
       "difficulty": 5
     },{
+      "id": 81,
       "name": {
         "en": "Medicine (including box, leaflet and blister)",
         "es": "Medicamento (incluyendo la caja, el prospecto y el blíster)"
@@ -1217,6 +1298,7 @@
       "solution": "sigre",
       "difficulty": 7
     },{
+      "id": 82,
       "name": {
         "en": "Pills",
         "es": "Pastillas"
@@ -1232,6 +1314,7 @@
       "solution": "sigre",
       "difficulty": 5
     },{
+      "id": 83,
       "name": {
         "en": "Thermometer",
         "es": "Termómetro"
@@ -1247,6 +1330,7 @@
       "solution": "facility",
       "difficulty": 8
     },{
+      "id": 84,
       "name": {
         "en": "DVD",
         "es": "DVD"
@@ -1262,6 +1346,7 @@
       "solution": "facility",
       "difficulty": 5
     },{
+      "id": 85,
       "name": {
         "en": "Fluorescent tube",
         "es": "Tubo fluorescente"
@@ -1277,6 +1362,7 @@
       "solution": "facility",
       "difficulty": 6
     },{
+      "id": 86,
       "name": {
         "en": "Olive oil",
         "es": "Aceite de oliva"
@@ -1292,6 +1378,7 @@
       "solution": "facility",
       "difficulty": 5
     },{
+      "id": 87,
       "name": {
         "en": "Laptop",
         "es": "Ordenador portátil"
@@ -1307,6 +1394,7 @@
       "solution": "facility",
       "difficulty": 4
     },{
+      "id": 88,
       "name": {
         "en": "Fridge",
         "es": "Frigorífico"
@@ -1322,6 +1410,7 @@
       "solution": "facility",
       "difficulty": 3
     },{
+      "id": 89,
       "name": {
         "en": "Smartphone",
         "es": "Smartphone"
@@ -1337,6 +1426,7 @@
       "solution": "facility",
       "difficulty": 5
     },{
+      "id": 90,
       "name": {
         "en": "Toaster",
         "es": "Tostadora"
@@ -1352,6 +1442,7 @@
       "solution": "facility",
       "difficulty": 5
     },{
+      "id": 91,
       "name": {
         "en": "Hair dryer",
         "es": "Secador de pelo"
@@ -1367,6 +1458,7 @@
       "solution": "facility",
       "difficulty": 5
     },{
+      "id": 92,
       "name": {
         "en": "Washing machine",
         "es": "Lavadora"
@@ -1382,6 +1474,7 @@
       "solution": "facility",
       "difficulty": 3
     },{
+      "id": 93,
       "name": {
         "en": "Toy with electronic components",
         "es": "Juguete con componentes electrónicos"
@@ -1397,6 +1490,7 @@
       "solution": "facility",
       "difficulty": 6
     },{
+      "id": 94,
       "name": {
         "en": "Paint bucket",
         "es": "Bote de pintura"
@@ -1412,6 +1506,7 @@
       "solution": "facility",
       "difficulty": 5
     },{
+      "id": 95,
       "name": {
         "en": "Toner and ink cartridges",
         "es": "Tóner y cartuchos de tinta"
@@ -1427,6 +1522,7 @@
       "solution": "facility",
       "difficulty": 6
     },{
+      "id": 96,
       "name": {
         "en": "Furniture",
         "es": "Muebles"
@@ -1442,6 +1538,7 @@
       "solution": "facility",
       "difficulty": 5
     },{
+      "id": 97,
       "name": {
         "en": "Tyre",
         "es": "Neumático"
@@ -1457,6 +1554,7 @@
       "solution": "facility",
       "difficulty": 5
     },{
+      "id": 98,
       "name": {
         "en": "TV",
         "es": "Televisor"
@@ -1472,6 +1570,7 @@
       "solution": "facility",
       "difficulty": 4
     },{
+      "id": 99,
       "name": {
         "en": "Mattress",
         "es": "Colchón"
@@ -1486,6 +1585,22 @@
       },
       "solution": "facility",
       "difficulty": 5
+    },{
+      "id": 100,
+      "name": {
+        "en": "Rubble",
+        "es": "Escombros"
+      },
+      "image": {
+        "url": "assets/images/products/tiles_broken_construction.jpg",
+        "license": {
+          "name": "CC0 Public Domain",
+          "resource_url": "https://pxhere.com/es/photo/592317",
+          "attribution": false
+        }
+      },
+      "solution": "facility",
+      "difficulty": 6
     }
   ]
 }

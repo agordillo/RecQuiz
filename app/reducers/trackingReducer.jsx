@@ -1,4 +1,5 @@
 import * as Utils from '../vendors/Utils.js';
+import * as Tracker from '../vendors/Tracker.js';
 
 function trackingReducer(state = {}, action){
   let newState;
@@ -31,6 +32,9 @@ function trackingReducer(state = {}, action){
     }
 
     objective.accomplished = true;
+
+    //Notify to tracker
+    Tracker.storeObjective(objective);
 
     newState = JSON.parse(JSON.stringify(state));
     objective = Object.assign({}, objective);

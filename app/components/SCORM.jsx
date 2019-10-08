@@ -1,5 +1,6 @@
 import React from 'react';
 import * as SCORM_WRAPPER from '../vendors/SCORM_API_Wrapper.js';
+import * as Tracker from '../vendors/Tracker.js';
 import {scormConnected, updateUserProfile} from './../reducers/actions';
 
 let COMPLETION_THRESHOLD;
@@ -50,6 +51,7 @@ export default class SCORM extends React.Component {
       this.props.dispatch(scormConnected(false));
       return;
     }
+    Tracker.storeSCORMConnection(true);
     this.props.dispatch(scormConnected(scorm));
 
     // Init user profile

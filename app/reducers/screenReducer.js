@@ -1,11 +1,16 @@
+import * as Tracker from '../vendors/Tracker.js';
+
 function screenReducer(state = false, action){
   switch (action.type){
   case 'CHANGE_SCREEN':
     if(typeof action.screen === "number"){
+      //Notify to tracker
+      Tracker.storeScreen(action.screen);
       return action.screen;
     }
     return state;
   case 'FINISH_APP':
+    Tracker.storeScreen(3);
     return 3;
   default:
     return state;

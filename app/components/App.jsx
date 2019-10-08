@@ -5,6 +5,7 @@ import './../assets/scss/main.scss';
 
 import {GLOBAL_CONFIG} from '../config/config.js';
 import * as LocalStorage from '../vendors/Storage.js';
+import * as Tracker from '../vendors/Tracker.js';
 import * as I18n from '../vendors/I18n.js';
 import * as Utils from '../vendors/Utils.js';
 import * as SAMPLES from '../config/samples.js';
@@ -27,10 +28,13 @@ export class App extends React.Component {
     if(typeof LocalStorage.getSetting("deviceid") === "undefined"){
       LocalStorage.saveSetting("deviceid",Math.random().toString(36).substr(2, 13));
     }
+    Tracker.init();
     let screen = this.props.screen;
     let showInstructions = !((GLOBAL_CONFIG.skip_instructions===true)||(LocalStorage.getSetting("skip_instructions")===true));
     if((screen===0)&&(showInstructions===false)&&(this.props.tracking.started===false)){
       this.props.dispatch(changeScreen(1));
+    } else {
+      Tracker.storeScreen(0); //Store initial screen
     }
   }
 
@@ -94,7 +98,7 @@ export class App extends React.Component {
     // Create objectives (one per question/product included in the quiz)
     let objectives = [];
     for(let j = 0; j < nProducts; j++){
-      objectives.push(new Utils.Objective({id:("Product" + (j + 1)), progress_measure:(1 / nProducts), score:(1 / nProducts)}));
+      objectives.push(new Utils.Objective({id:("Product" + (j + 1)), product_id: (products[j].id), product_friendly_name: (products[j].name.es), progress_measure:(1 / nProducts), score:(1 / nProducts)}));
     }
     this.props.dispatch(addObjectives(objectives));
   }
@@ -214,7 +218,7 @@ export class App extends React.Component {
         case 1:
           //Quiz
           appContent = (
-            <Quiz quiz={this.props.quiz} timer={this.props.timer} dispatch={this.props.dispatch} user_profile={this.props.user_profile} tracking={this.props.tracking} config={GLOBAL_CONFIG} I18n={I18n} LocalStorage={LocalStorage}/>
+            <Quiz quiz={this.props.quiz} timer={this.props.timer} dispatch={this.props.dispatch} user_profile={this.props.user_profile} tracking={this.props.tracking} config={GLOBAL_CONFIG} I18n={I18n} LocalStorage={LocalStorage} Tracker={Tracker} />
           );
           break;
         case 2:

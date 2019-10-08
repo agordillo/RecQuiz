@@ -35,6 +35,7 @@ export default class Quiz extends React.Component {
       if((this.props.timer === 0)&&(prevProps.timer > 0)){
         setTimeout(function(){
           if(typeof this.props.quiz.selected_dumpster === "undefined"){
+            this.props.Tracker.storeAction("TIME_RUNS_OUT");
             this.onAnswerQuestion(undefined);
           }
         }.bind(this),1000);
