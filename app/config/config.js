@@ -23,13 +23,19 @@ export let GLOBAL_CONFIG = {
     debug_scorm_api:false,
     debug_scorm_api_window:false,
     available_locales:["en", "es"],
+    locale: "es",
     adaptive:true,
     finish_screen:true,
     scorm:{
       completion_threshold:0.5,
       score_threshold:0.6,
     },
-    n:undefined,
+    n:10,
+    mode: "LEARNING", //EXAM or LEARNING
+    skip_instructions: false,
+    products: "config/products.json",
+    enable_timer: true,
+    timerseconds: 30,
   },
 };
 

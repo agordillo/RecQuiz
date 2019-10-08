@@ -63,7 +63,7 @@ export class App extends React.Component {
     }
     
     //Remove products shown in previous interactions with the app
-    products = this.filterShownProducts(products);
+    products = this.filterShownProducts(products,n);
 
     // If adaptive behaviour enabled: try to sort products based on difficulty
     let products_sorted = false;
@@ -100,7 +100,7 @@ export class App extends React.Component {
   }
 
   //Remove products shown in previous interactions with the app
-  filterShownProducts(products){
+  filterShownProducts(products,n){
     let nProducts = products.length;
     if(nProducts === 0){
       return products;
@@ -129,7 +129,7 @@ export class App extends React.Component {
     let nProductsFiltered = all_products_filtered.length;
     if(nProductsFiltered === 0){
       this.resetStoredProducts();
-      return this.filterShownProducts(products);
+      return this.filterShownProducts(products,n);
     }
     if((typeof n === "number")&&(n > nProductsFiltered)){
       let productsToAdd = Math.min((n - nProductsFiltered),filtered_products.length);
