@@ -16,7 +16,9 @@ export function init(){
   sessionData.environment = {};
   sessionData.environment.parents = getParentURLs();
 
-  window.addEventListener("beforeunload", onBeforeUnload);
+  window.onbeforeunload = function(){
+     onBeforeUnload();
+  };
 
   // Testing
   // console.log("Tracker init: SESSION DATA");
@@ -70,7 +72,7 @@ function getParentURLs(win,URLs){
   }
 }
 
-function onBeforeUnload(event){
+function onBeforeUnload(){
   // LocalStorage.saveSetting("sessionData",sessionData); //Testing
 
   if(typeof GLOBAL_CONFIG.tracker === "undefined"){
