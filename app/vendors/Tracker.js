@@ -16,9 +16,7 @@ export function init(){
   sessionData.environment = {};
   sessionData.environment.parents = getParentURLs();
 
-  window.onbeforeunload = function(){
-     onBeforeUnload();
-  };
+  $(window).on("unload",onBeforeUnload);
 
   // Testing
   // console.log("Tracker init: SESSION DATA");
@@ -86,7 +84,7 @@ function _sendTrackedData(){
     type    : 'POST',
     url     : GLOBAL_CONFIG.tracker.url,
     data    : _composeTrackingObject(),
-    async : false
+    async   : false
   });
 };
 
