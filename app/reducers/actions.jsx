@@ -25,28 +25,12 @@ export function resetObjectives(objectives){
   };
 }
 
-export function objectiveAccomplished(objectiveId, accomplishedScore = null){
+export function objectiveAccomplished(objectiveId, accomplishedScore = null, user_selection){
   return {
     type:'OBJECTIVE_ACCOMPLISHED',
     objective_id:objectiveId,
     accomplished_score:accomplishedScore,
-  };
-}
-
-// Example of action created using the redux-thunk middleware for Redux
-export function objectiveAccomplishedThunk(objectiveId, accomplishedScore = null){
-  return (dispatch, getState) => {
-    const firstState = JSON.parse(JSON.stringify(getState()));
-    dispatch(objectiveAccomplished(objectiveId, accomplishedScore = null));
-
-    // Perform another action after accomplishing the objective
-    const secondState = getState();
-    if((typeof firstState.tracking.objectives[objectiveId] === "object") && (firstState.tracking.objectives[objectiveId].accomplished === false) && (typeof secondState.tracking.objectives[objectiveId] === "object") && (secondState.tracking.objectives[objectiveId].accomplished === true)){
-      // Objective with id objectiveId was accomplished.
-      // Do something and/or dispatch another action.
-      //console.log("Objective with id " + objectiveId + " was accomplished.");
-      dispatch(showDialog("Objective with id " + objectiveId + " was accomplished."));
-    }
+    user_selection: user_selection
   };
 }
 

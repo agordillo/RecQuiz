@@ -34,7 +34,7 @@ function trackingReducer(state = {}, action){
     objective.accomplished = true;
 
     //Notify to tracker
-    Tracker.storeObjective(objective);
+    Tracker.storeQuestionAnswered(objective,action.user_selection);
 
     newState = JSON.parse(JSON.stringify(state));
     objective = Object.assign({}, objective);

@@ -98,7 +98,7 @@ export class App extends React.Component {
     // Create objectives (one per question/product included in the quiz)
     let objectives = [];
     for(let j = 0; j < nProducts; j++){
-      objectives.push(new Utils.Objective({id:("Product" + (j + 1)), product_id: (products[j].id), product_friendly_name: (products[j].name.es), progress_measure:(1 / nProducts), score:(1 / nProducts)}));
+      objectives.push(new Utils.Objective({id:("Product" + (j + 1)), product_id: (products[j].id), product_friendly_name: (products[j].name.es), product_solution: products[j].solution, progress_measure:(1 / nProducts), score:(1 / nProducts)}));
     }
     this.props.dispatch(addObjectives(objectives));
   }

@@ -23,8 +23,8 @@ export function init(){
   // console.log(LocalStorage.getSetting("sessionData"));
 }
 
-export function storeObjective(objective){
-  storeAction("QUESTION_ANSWERED",{product_id: objective.product_id, product_friendly_name: objective.product_friendly_name, success: (objective.accomplished_score > 0)});
+export function storeQuestionAnswered(objective,user_selection){
+  storeAction("QUESTION_ANSWERED",{product_id: objective.product_id, product_friendly_name: objective.product_friendly_name, success: (objective.accomplished_score > 0), user_selection:user_selection, solution:objective.product_solution});
 }
 
 export function storeScreen(screen_id){

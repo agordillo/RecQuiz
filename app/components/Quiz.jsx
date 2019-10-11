@@ -75,7 +75,7 @@ export default class Quiz extends React.Component {
     this.props.dispatch(selectDumpster(dumpster));
 
     // Send data via SCORM
-    this.props.dispatch(objectiveAccomplished(objective.id, score));
+    this.props.dispatch(objectiveAccomplished(objective.id, score,dumpster));
   }
   onNextQuestion(){
     let isLastQuestion = (this.props.quiz.current_product_index === this.props.quiz.current_products.length);
