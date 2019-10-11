@@ -1,6 +1,7 @@
 {
   "products": [
     {
+      "id": 1,
       "name": {
         "en": "Newspaper",
         "es": "Periódico"
@@ -17,6 +18,7 @@
       "difficulty": 1
     },
     {
+      "id": 2,
       "name": {
         "en": "Wine bottle",
         "es": "Botella de vino"
@@ -32,6 +34,7 @@
       "solution": "green",
       "difficulty": 1
     },{
+      "id": 3,
       "name": {
         "en": "Plastic bottle",
         "es": "Botella de plástico"
@@ -47,6 +50,7 @@
       "solution": "yellow",
       "difficulty": 1
     },{
+      "id": 4,
       "name": {
         "en": "Milk box",
         "es": "Brik de leche"
@@ -62,6 +66,7 @@
       "solution": "yellow",
       "difficulty": 1
     },{
+      "id": 5,
       "name": {
         "en": "Juice box",
         "es": "Brik de zumo"
@@ -77,6 +82,7 @@
       "solution": "yellow",
       "difficulty": 1
     },{
+      "id": 6,
       "name": {
         "en": "Cork Tray",
         "es": "Bandeja de corcho blanco"

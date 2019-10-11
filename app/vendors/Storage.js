@@ -61,15 +61,15 @@ export function saveSetting(settingName,value){
 }
 
 export function saveShowedProduct(product){
-  if((typeof product !== "object")||(typeof product["name"] !== "object")||(typeof product["name"]["en"] !== "string")){
+  if((typeof product !== "object")||(typeof product["id"] !== "number")){
     return undefined;
   }
   let showedProducts = this.getSetting("showed_products");
   if(!(showedProducts instanceof Array)){
     showedProducts = [];
   }
-  if(showedProducts.indexOf()===-1){
-    showedProducts.push(product["name"]["en"]);
+  if(showedProducts.indexOf(product["id"])===-1){
+    showedProducts.push(product["id"]);
   } else {
     return undefined;
   }
@@ -77,15 +77,15 @@ export function saveShowedProduct(product){
 }
 
 export function saveIncorrectProduct(product){
-  if((typeof product !== "object")||(typeof product["name"] !== "object")||(typeof product["name"]["en"] !== "string")){
+  if((typeof product !== "object")||(typeof product["id"] !== "number")){
     return undefined;
   }
   let incorrectProducts = this.getSetting("incorrect_products");
   if(!(incorrectProducts instanceof Array)){
     incorrectProducts = [];
   }
-  if(incorrectProducts.indexOf()===-1){
-    incorrectProducts.push(product["name"]["en"]);
+  if(incorrectProducts.indexOf(product["id"])===-1){
+    incorrectProducts.push(product["id"]);
   } else {
     return undefined;
   }

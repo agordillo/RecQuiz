@@ -120,7 +120,7 @@ export class App extends React.Component {
     for(let i = 0; i<nProducts; i++){
       let filtered = false;
       for(let j = 0; j<nShowedProducts; j++){
-        if((typeof products[i]["name"] === "object")&&(typeof products[i]["name"]["en"] === "string")&&((products[i]["name"]["en"] === showedProducts[j]))){
+        if((typeof products[i]["id"] === "number")&&(products[i]["id"] === showedProducts[j])){
           filtered = true;
           filtered_products.push(products[i]);
           break;
@@ -130,6 +130,7 @@ export class App extends React.Component {
         all_products_filtered.push(products[i]);
       }
     }
+
     let nProductsFiltered = all_products_filtered.length;
     if(nProductsFiltered === 0){
       this.resetStoredProducts();
@@ -142,7 +143,6 @@ export class App extends React.Component {
       }
       all_products_filtered = Utils.shuffleArray(all_products_filtered);
     }
-
     return all_products_filtered;
   }
 
@@ -197,7 +197,6 @@ export class App extends React.Component {
     } else {
       LocalStorage.saveSetting("showed_products",[]);
     }
-    
     LocalStorage.saveSetting("incorrect_products",[]);
   }
 
