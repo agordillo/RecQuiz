@@ -12,7 +12,7 @@ export default class Learning extends React.Component {
   }
   render(){
     let dumpsters = ["yellow","green","blue","brown","gray","sigre","facility"].map(function(dumpsterKey){
-      return (<Dumpster key={dumpsterKey} dumpster={dumpsterKey} onDumpsterSelected={this.onDumpsterSelected.bind(this)} correct={this.state.selected_dumpster===dumpsterKey} questionAnswered={true} checked={false} />);
+      return (<Dumpster I18n={this.props.I18n} key={dumpsterKey} dumpster={dumpsterKey} onDumpsterSelected={this.onDumpsterSelected.bind(this)} correct={this.state.selected_dumpster===dumpsterKey} questionAnswered={true} checked={false} />);
     }.bind(this));
 
     return (

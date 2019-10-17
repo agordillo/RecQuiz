@@ -17,7 +17,7 @@ export default class ProductQuestion extends React.Component {
     let dumpsters = [];
     for(let i = 0; i < product.dumpsters.length; i++){
       let dumpster = product.dumpsters[i];
-      dumpsters.push(<Dumpster key={"Dumpster_" + i} dumpster={dumpster} onDumpsterSelected={this.onDumpsterSelected.bind(this)} questionAnswered={this.props.answered} checked={this.props.quiz.selected_dumpster===dumpster} correct={product.solution===dumpster} />);
+      dumpsters.push(<Dumpster I18n={this.props.I18n} key={"Dumpster_" + i} dumpster={dumpster} onDumpsterSelected={this.onDumpsterSelected.bind(this)} questionAnswered={this.props.answered} checked={this.props.quiz.selected_dumpster===dumpster} correct={product.solution===dumpster} />);
     }
     return (
       <div className="question">

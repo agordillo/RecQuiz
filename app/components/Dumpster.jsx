@@ -34,7 +34,7 @@ export default class Dumpster extends React.Component {
 
     return (
       <div className={wrapperClassName}>
-        <img src={this.getDumpsterImg()} className="dumpster" onClick={this.onDumpsterSelected.bind(this)} />
+        <img src={this.getDumpsterImg()} title={this.props.I18n.getTrans("i.learn_" + this.props.dumpster + "_title")} className="dumpster" onClick={this.onDumpsterSelected.bind(this)} />
         <img src="assets/images/tick.png" className={tickClassName} />
         <img src="assets/images/wrong_tick.png" className={wrongTickClassName} />
       </div>
