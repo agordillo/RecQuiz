@@ -1,0 +1,102 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": {
+        "en": "Newspaper",
+        "es": "Periódico"
+      },
+      "image": {
+        "url": "assets/images/products/newspaper.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/vectors/newspaper-article-journal-headlines-154444",
+          "attribution": false
+        }
+      },
+      "solution": "blue",
+      "difficulty": 1
+    },
+    {
+      "id": 2,
+      "name": {
+        "en": "Wine bottle",
+        "es": "Botella de vino"
+      },
+      "image": {
+        "url": "assets/images/products/bottle_wine.jpg",
+        "license": {
+          "name": "CC BY-SA 3.0",
+          "resource_url": "https://es.m.wikipedia.org/wiki/Archivo:Bouteille.jpg",
+          "attribution": "Green glass wine bottle (CC BY-SA 3.0) - Aurélien Mole (https://es.m.wikipedia.org/wiki/Archivo:Bouteille.jpg)"
+        }
+      },
+      "solution": "green",
+      "difficulty": 1
+    },{
+      "id": 3,
+      "name": {
+        "en": "Plastic bottle",
+        "es": "Botella de plástico"
+      },
+      "image": {
+        "url": "assets/images/products/bottle_plastic.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/vectors/bottle-plastic-big-empty-307639",
+          "attribution": false
+        }
+      },
+      "solution": "yellow",
+      "difficulty": 1
+    },{
+      "id": 4,
+      "name": {
+        "en": "Milk box",
+        "es": "Brik de leche"
+      },
+      "image": {
+        "url": "assets/images/products/milk_box.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/vectors/milk-cookies-drink-breakfast-159348",
+          "attribution": false
+        }
+      },
+      "solution": "yellow",
+      "difficulty": 1
+    },{
+      "id": 5,
+      "name": {
+        "en": "Juice box",
+        "es": "Brik de zumo"
+      },
+      "image": {
+        "url": "assets/images/products/juice_box.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/vectors/juice-box-carton-disposable-straw-25189",
+          "attribution": false
+        }
+      },
+      "solution": "yellow",
+      "difficulty": 1
+    },{
+      "id": 6,
+      "name": {
+        "en": "Cork Tray",
+        "es": "Bandeja de corcho blanco"
+      },
+      "image": {
+        "url": "assets/images/products/white_cork_tray.png",
+        "license": {
+          "name": "??",
+          "resource_url": "??",
+          "attribution": false
+        }
+      },
+      "solution": "yellow",
+      "difficulty": 3
+    }
+  ]
+}

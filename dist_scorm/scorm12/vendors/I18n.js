@@ -39,6 +39,23 @@ function getUserLanguage(){
   return undefined;
 }
 
+export function getLocale(){
+  return locale;
+}
+
+export function getProductName(product){
+  if((product)&&(product.name)&&(Object.getOwnPropertyNames(product.name).length > 0)){
+    if(typeof product.name[locale] === "string"){
+      return product.name[locale];
+    }
+    if(typeof product.name[default_locale] === "string"){
+      return product.name[default_locale];
+    }
+    let fields = Object.getOwnPropertyNames(product.name);
+    return product.name[fields[0]];
+  }
+}
+
 function readURLparams(){
   let params = {};
   try {

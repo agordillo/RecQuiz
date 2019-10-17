@@ -1,0 +1,1606 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": {
+        "en": "Newspaper",
+        "es": "Periódico"
+      },
+      "image": {
+        "url": "assets/images/products/newspaper.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/vectors/newspaper-article-journal-headlines-154444",
+          "attribution": false
+        }
+      },
+      "solution": "blue",
+      "difficulty": 1
+    },
+    {
+      "id": 2,
+      "name": {
+        "en": "Wine bottle",
+        "es": "Botella de vino"
+      },
+      "image": {
+        "url": "assets/images/products/bottle_wine.jpg",
+        "license": {
+          "name": "CC BY-SA 3.0",
+          "resource_url": "https://es.m.wikipedia.org/wiki/Archivo:Bouteille.jpg",
+          "attribution": "Green glass wine bottle (CC BY-SA 3.0) - Aurélien Mole (https://es.m.wikipedia.org/wiki/Archivo:Bouteille.jpg)"
+        }
+      },
+      "solution": "green",
+      "difficulty": 1
+    },{
+      "id": 3,
+      "name": {
+        "en": "Plastic bottle",
+        "es": "Botella de plástico"
+      },
+      "image": {
+        "url": "assets/images/products/bottle_plastic.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/vectors/bottle-plastic-big-empty-307639",
+          "attribution": false
+        }
+      },
+      "solution": "yellow",
+      "difficulty": 1
+    },{
+      "id": 4,
+      "name": {
+        "en": "Milk box",
+        "es": "Brik de leche"
+      },
+      "image": {
+        "url": "assets/images/products/milk_box.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/vectors/milk-cookies-drink-breakfast-159348",
+          "attribution": false
+        }
+      },
+      "solution": "yellow",
+      "difficulty": 1
+    },{
+      "id": 5,
+      "name": {
+        "en": "Juice box",
+        "es": "Brik de zumo"
+      },
+      "image": {
+        "url": "assets/images/products/juice_box.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/vectors/juice-box-carton-disposable-straw-25189",
+          "attribution": false
+        }
+      },
+      "solution": "yellow",
+      "difficulty": 1
+    },{
+      "id": 6,
+      "name": {
+        "en": "Cork Tray",
+        "es": "Bandeja de corcho blanco"
+      },
+      "image": {
+        "url": "assets/images/products/white_cork_tray.png",
+        "license": {
+          "name": "??",
+          "resource_url": "??",
+          "attribution": false
+        }
+      },
+      "solution": "yellow",
+      "difficulty": 3
+    },{
+      "id": 7,
+      "name": {
+        "en": "Egg carton box",
+        "es": "Huevera de cartón"
+      },
+      "image": {
+        "url": "assets/images/products/egg_carton_box.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/vectors/egg-carton-carton-egg-box-eggs-575692",
+          "attribution": false
+        }
+      },
+      "solution": "blue",
+      "difficulty": 2
+    },{
+      "id": 8,
+      "name": {
+        "en": "Egg plastic box",
+        "es": "Huevera de plástico"
+      },
+      "image": {
+        "url": "assets/images/products/egg_plastic_box.jpg",
+        "license": {
+          "name": "CC BY 2.0",
+          "resource_url": "https://flic.kr/p/2dct9r4",
+          "attribution": "Quail eggs in a plastic egg box (CC BY 2.0) - Ivan Radic (https://flic.kr/p/2dct9r4)"
+        }
+      },
+      "solution": "yellow",
+      "difficulty": 2
+    },{
+      "id": 9,
+      "name": {
+        "en": "Plastic lid",
+        "es": "Tapón de plástico"
+      },
+      "image": {
+        "url": "assets/images/products/plastic_bottle_lid.jpg",
+        "license": {
+          "name": "CC0 1.0",
+          "resource_url": "https://commons.wikimedia.org/wiki/File:Light_blue_plastic_bottle_lid.jpg",
+          "attribution": false
+        }
+      },
+      "solution": "yellow",
+      "difficulty": 1
+    },{
+      "id": 10,
+      "name": {
+        "en": "Fruit mesh",
+        "es": "Malla de plásico para frutas"
+      },
+      "image": {
+        "url": "assets/images/products/fruit_mesh.jpg",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/photos/fruit-oranges-orange-fruit-food-1056225",
+          "attribution": false
+        }
+      },
+      "solution": "yellow",
+      "difficulty": 5
+    },{
+      "id": 11,
+      "name": {
+        "en": "Cork lid",
+        "es": "Tapón de corcho"
+      },
+      "image": {
+        "url": "assets/images/products/cork_lid.jpg",
+        "license": {
+          "name": "CC0",
+          "resource_url": "https://www.maxpixel.net/Wine-Corks-Lid-Closure-Stuff-Cork-3397657",
+          "attribution": false
+        }
+      },
+      "solution": "yellow",
+      "difficulty": 4
+    },{
+      "id": 12,
+      "name": {
+        "en": "Strawberry wood box",
+        "es": "Caja de madera para fresas"
+      },
+      "image": {
+        "url": "assets/images/products/strawberry_wood_box.jpg",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/photos/box-strawberries-smurf-wood-3185857",
+          "attribution": false
+        }
+      },
+      "solution": "yellow",
+      "difficulty": 8
+    },{
+      "id": 13,
+      "name": {
+        "en": "Plastic bag",
+        "es": "Bolsa de plástico"
+      },
+      "image": {
+        "url": "assets/images/products/white_plastic_bag.jpg",
+        "license": {
+          "name": "CC BY-NC-ND 2.0",
+          "resource_url": "https://www.flickr.com/photos/fservayge/1472436308",
+          "attribution": "White plastic bag (CC BY-NC-ND 2.0) - Frank Servayge (https://www.flickr.com/photos/fservayge/1472436308)"
+        }
+      },
+      "solution": "yellow",
+      "difficulty": 1
+    },{
+      "id": 14,
+      "name": {
+        "en": "Bleach bottle",
+        "es": "Botella de lejía"
+      },
+      "image": {
+        "url": "assets/images/products/bleach_plastic_bottle.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/vectors/bottle-plastic-bottles-bleach-94441",
+          "attribution": false
+        }
+      },
+      "solution": "yellow",
+      "difficulty": 2
+    },{
+      "id": 15,
+      "name": {
+        "en": "Shampoo bottle",
+        "es": "Botella de champú"
+      },
+      "image": {
+        "url": "assets/images/products/shampoo-_bottle.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/photos/shampoo-shampoo-bottle-1860642",
+          "attribution": false
+        }
+      },
+      "solution": "yellow",
+      "difficulty": 2
+    },{
+      "id": 16,
+      "name": {
+        "en": "Aerosol can (empty)",
+        "es": "Aerosol (vacío)"
+      },
+      "image": {
+        "url": "assets/images/products/aerosol_can.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/vectors/aerosol-can-can-spray-brush-160053",
+          "attribution": false
+        }
+      },
+      "solution": "yellow",
+      "difficulty": 3
+    },{
+      "id": 17,
+      "name": {
+        "en": "Can of soda",
+        "es": "Lata de refresco"
+      },
+      "image": {
+        "url": "assets/images/products/can_soda.png",
+        "license": {
+          "name": "Public Domain Mark 1.0",
+          "resource_url": "http://www.publicdomainfiles.com/show_file.php?id=13545955813544",
+          "attribution": false
+        }
+      },
+      "solution": "yellow",
+      "difficulty": 1
+    },{
+      "id": 18,
+      "name": {
+        "en": "Canned food",
+        "es": "Lata de conservas"
+      },
+      "image": {
+        "url": "assets/images/products/canned_food.jpg",
+        "license": {
+          "name": "CC0 Public Domain",
+          "resource_url": "https://www.publicdomainpictures.net/en/view-image.php?image=243497&picture=canned-food",
+          "attribution": false
+        }
+      },
+      "solution": "yellow",
+      "difficulty": 2
+    },{
+      "id": 19,
+      "name": {
+        "en": "Bottle of soda",
+        "es": "Botella de refresco"
+      },
+      "image": {
+        "url": "assets/images/products/bottle_soda.jpg",
+        "license": {
+          "name": "CC0 Public Domain",
+          "resource_url": "https://www.publicdomainpictures.net/es/view-image.php?image=5434&picture=empty-green-bottle",
+          "attribution": false
+        }
+      },
+      "solution": "green",
+      "difficulty": 1
+    },{
+      "id": 20,
+      "name": {
+        "en": "Metal lid",
+        "es": "Tapa de metal"
+      },
+      "image": {
+        "url": "assets/images/products/bottle_cap.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/vectors/bottle-caps-metal-caps-cover-1297335",
+          "attribution": false
+        }
+      },
+      "solution": "yellow",
+      "difficulty": 3
+    },{
+      "id": 21,
+      "name": {
+        "en": "Aluminium foil",
+        "es": "Papel de aluminio"
+      },
+      "image": {
+        "url": "assets/images/products/aluminium_foil.jpg",
+        "license": {
+          "name": "Public domain",
+          "resource_url": "https://commons.wikimedia.org/wiki/File:Alufolie2.jpg",
+          "attribution": false
+        }
+      },
+      "solution": "yellow",
+      "difficulty": 4
+    },{
+      "id": 22,
+      "name": {
+        "en": "Vacuum package",
+        "es": "Envase al vacío"
+      },
+      "image": {
+        "url": "assets/images/products/vacuum_package.jpg",
+        "license": {
+          "name": "CC BY-SA 3.0",
+          "resource_url": "https://es.wikipedia.org/wiki/Archivo:Vacuum_Packaging_Machine_sous_vide_chuck_roll.jpg",
+          "attribution": "Vacuum Packaging Machine (CC BY-SA 3.0) - Erikoinentunnus (https://es.wikipedia.org/wiki/Archivo:Vacuum_Packaging_Machine_sous_vide_chuck_roll.jpg)"
+        }
+      },
+      "solution": "yellow",
+      "difficulty": 3
+    },{
+      "id": 23,
+      "name": {
+        "en": "Clingfilm",
+        "es": "Film transparente"
+      },
+      "image": {
+        "url": "assets/images/products/clingfilm.jpg",
+        "license": {
+          "name": "Public domain",
+          "resource_url": "https://commons.wikimedia.org/wiki/File:Clingfilm.jpg",
+          "attribution": false
+        }
+      },
+      "solution": "yellow",
+      "difficulty": 3
+    },{
+      "id": 24,
+      "name": {
+        "en": "Bubblewrap",
+        "es": "Plástico de burbujas"
+      },
+      "image": {
+        "url": "assets/images/products/bubblewrap.jpg",
+        "license": {
+          "name": "CC BY-SA 2.0",
+          "resource_url": "https://www.flickr.com/photos/avlxyz/10133698",
+          "attribution": "Bubblewrap (CC BY-SA 2.0) - Alpha (https://www.flickr.com/photos/avlxyz/10133698)"
+        }
+      },
+      "solution": "yellow",
+      "difficulty": 4
+    },{
+      "id": 25,
+      "name": {
+        "en": "Aluminum tray",
+        "es": "Bandeja de aluminio"
+      },
+      "image": {
+        "url": "assets/images/products/aluminum_tray.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/illustrations/shells-aluminum-trays-packaging-1984293",
+          "attribution": false
+        }
+      },
+      "solution": "yellow",
+      "difficulty": 4
+    },{
+      "id": 26,
+      "name": {
+        "en": "Blister pack (empty)",
+        "es": "Envase tipo blíster (vacio)"
+      },
+      "image": {
+        "url": "assets/images/products/blister_package.jpg",
+        "license": {
+          "name": "CC BY-SA 3.0",
+          "resource_url": "https://commons.wikimedia.org/wiki/File:Opened_Oral_Birth_Control.jpg",
+          "attribution": "Blister pack (CC BY-SA 3.0) - Bryancalabro (https://commons.wikimedia.org/wiki/File:Opened_Oral_Birth_Control.jpg)"
+        }
+      },
+      "solution": "yellow",
+      "difficulty": 3
+    },{
+      "id": 27,
+      "name": {
+        "en": "Plastic comb",
+        "es": "Peine de plástico"
+      },
+      "image": {
+        "url": "assets/images/products/plastic_comb.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/vectors/comb-teeth-plastic-tool-hair-33192",
+          "attribution": false
+        }
+      },
+      "solution": "gray",
+      "difficulty": 7
+    },{
+      "id": 28,
+      "name": {
+        "en": "Plastic hanger",
+        "es": "Percha de plástico"
+      },
+      "image": {
+        "url": "assets/images/products/plastic_hanger.jpg",
+        "license": {
+          "name": "CC BY-SA 3.0",
+          "resource_url": "https://commons.wikimedia.org/wiki/File:Etrusco_43_CB.jpg",
+          "attribution": "Plastic hanger (CC BY-SA 3.0) - Siglianok (https://commons.wikimedia.org/wiki/File:Etrusco_43_CB.jpg)"
+        }
+      },
+      "solution": "gray",
+      "difficulty": 6
+    },{
+      "id": 29,
+      "name": {
+        "en": "Toothbrush",
+        "es": "Cepillo de dientes"
+      },
+      "image": {
+        "url": "assets/images/products/toothbrush.jpg",
+        "license": {
+          "name": "CC0 Public Domain. Free for commercial use. Link referral required",
+          "resource_url": "https://www.maxpixel.net/Dentistry-Toothbrush-Body-Care-Dental-Care-Hygiene-674650",
+          "attribution": "Toothbrush (CC0 Public Domain) - (https://www.maxpixel.net/Dentistry-Toothbrush-Body-Care-Dental-Care-Hygiene-674650)"
+        }
+      },
+      "solution": "gray",
+      "difficulty": 5
+    },{
+      "id": 30,
+      "name": {
+        "en": "Plastic duck",
+        "es": "Patito de plástico"
+      },
+      "image": {
+        "url": "assets/images/products/plastic_duck.jpg",
+        "license": {
+          "name": "CC0 Public Domain. Free for commercial use. Link referral required",
+          "resource_url": "https://www.maxpixel.net/Toy-Rubber-Duck-Cute-Baby-Yellow-Duckling-594356",
+          "attribution": "Plastic duck (CC0 Public Domain) - (https://www.maxpixel.net/Toy-Rubber-Duck-Cute-Baby-Yellow-Duckling-594356)"
+        }
+      },
+      "solution": "gray",
+      "difficulty": 6
+    },{
+      "id": 31,
+      "name": {
+        "en": "Feeding Bottle",
+        "es": "Biberón"
+      },
+      "image": {
+        "url": "assets/images/products/feeding_bottle.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/illustrations/baby-bottle-feed-boy-milk-child-927259",
+          "attribution": false
+        }
+      },
+      "solution": "gray",
+      "difficulty": 6
+    },{
+      "id": 32,
+      "name": {
+        "en": "Pacifier",
+        "es": "Chupete"
+      },
+      "image": {
+        "url": "assets/images/products/pacifier.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/vectors/pink-baby-girl-child-pregnancy-4211917",
+          "attribution": false
+        }
+      },
+      "solution": "gray",
+      "difficulty": 6
+    },{
+      "id": 33,
+      "name": {
+        "en": "Plastic spatula",
+        "es": "Espátula de plástico"
+      },
+      "image": {
+        "url": "assets/images/products/spatula.jpg",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/photos/toys-kitchen-utensils-kitchen-1767627",
+          "attribution": false
+        }
+      },
+      "solution": "gray",
+      "difficulty": 6
+    },{
+      "id": 34,
+      "name": {
+        "en": "Plastic lunch container (empty)",
+        "es": "Envase de plástico para comida (vacio)"
+      },
+      "image": {
+        "url": "assets/images/products/lunch_box_empty_container.jpg",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "resource_url": "https://commons.wikimedia.org/wiki/File:HK_white_lunch_box_empty_container_LGM_H28PL_June_2018_02.jpg",
+          "attribution": "White lunch box empty container (CC BY-SA 4.0) - SIUkcjdkhvi (https://commons.wikimedia.org/wiki/File:HK_white_lunch_box_empty_container_LGM_H28PL_June_2018_02.jpg)"
+        }
+      },
+      "solution": "yellow",
+      "difficulty": 4
+    },{
+      "id": 35,
+      "name": {
+        "en": "Plastic tupperware",
+        "es": "Táper de plástico"
+      },
+      "image": {
+        "url": "assets/images/products/tupperware.jpg",
+        "license": {
+          "name": "Public domain",
+          "resource_url": "https://commons.wikimedia.org/wiki/File:Small_authentic_tupperware.JPG",
+          "attribution": false
+        }
+      },
+      "solution": "gray",
+      "difficulty": 6
+    },{
+      "id": 36,
+      "name": {
+        "en": "Bottle of aftershave",
+        "es": "Frasco de aftershave"
+      },
+      "image": {
+        "url": "assets/images/products/aftershave.jpg",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/photos/perfume-smells-con-fragrance-scent-1042712",
+          "attribution": false
+        }
+      },
+      "solution": "green",
+      "difficulty": 4
+    },{
+      "id": 37,
+      "name": {
+        "en": "Jar bottle (empty)",
+        "es": "Tarro de mermelada (vacío)"
+      },
+      "image": {
+        "url": "assets/images/products/jar_bottle.jpg",
+        "license": {
+          "name": "CC0 Public Domain. Free for commercial use. Link referral required.",
+          "resource_url": "https://www.maxpixel.net/Shadow-Table-Dark-Glass-Ice-Cold-Jar-Water-2584231",
+          "attribution": "Shadow Table Dark Glass Ice Cold Jar Water (CC0 Public Domain) - (https://www.maxpixel.net/Shadow-Table-Dark-Glass-Ice-Cold-Jar-Water-2584231)"
+        }
+      },
+      "solution": "green",
+      "difficulty": 4
+    },{
+      "id": 38,
+      "name": {
+        "en": "Canning jar",
+        "es": "Tarro de conservas"
+      },
+      "image": {
+        "url": "assets/images/products/canning_jar.jpg",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/photos/mason-jars-dehydrated-fruit-oranges-2742757",
+          "attribution": false
+        }
+      },
+      "solution": "green",
+      "difficulty": 4
+    },{
+      "id": 39,
+      "name": {
+        "en": "Glass of a mirror",
+        "es": "Cristal de un espejo"
+      },
+      "image": {
+        "url": "assets/images/products/mirror.jpg",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/illustrations/mirror-frame-crown-pearl-vintage-3199889",
+          "attribution": false
+        }
+      },
+      "solution": "gray",
+      "difficulty": 7
+    },{
+      "id": 40,
+      "name": {
+        "en": "Glass of a window",
+        "es": "Cristal de una ventana"
+      },
+      "image": {
+        "url": "assets/images/products/window.jpg",
+        "license": {
+          "name": "CC BY 2.0",
+          "resource_url": "https://www.flickr.com/photos/3336/10076977826",
+          "attribution": "Boss' Window (CC BY 2.0) - Diego Torres Silvestre (https://www.flickr.com/photos/3336/10076977826)"
+        }
+      },
+      "solution": "gray",
+      "difficulty": 7
+    },{
+      "id": 41,
+      "name": {
+        "en": "Bottle of perfume",
+        "es": "Frasco de perfume"
+      },
+      "image": {
+        "url": "assets/images/products/perfume.jpg",
+        "license": {
+          "name": "CC0 Public Domain",
+          "resource_url": "https://www.publicdomainpictures.net/es/view-image.php?image=45893&picture=perfume",
+          "attribution": false
+        }
+      },
+      "solution": "green",
+      "difficulty": 4
+    },{
+      "id": 42,
+      "name": {
+        "en": "Glass jar",
+        "es": "Tarro de vidrio"
+      },
+      "image": {
+        "url": "assets/images/products/glass_jar.jpg",
+        "license": {
+          "name": "CC0 Public Domain",
+          "resource_url": "https://www.publicdomainpictures.net/es/view-image.php?image=32798&picture=tarro-de-cristal-verde",
+          "attribution": false
+        }
+      },
+      "solution": "green",
+      "difficulty": 3
+    },{
+      "id": 43,
+      "name": {
+        "en": "Shoe box",
+        "es": "Caja de zapatos"
+      },
+      "image": {
+        "url": "assets/images/products/shoe_box.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/illustrations/box-boot-shoe-design-white-2864333",
+          "attribution": false
+        }
+      },
+      "solution": "blue",
+      "difficulty": 3
+    },{
+      "id": 44,
+      "name": {
+        "en": "Cereal box",
+        "es": "Caja de cereales"
+      },
+      "image": {
+        "url": "assets/images/products/cereal_box.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/vectors/cereal-box-bananas-strawberries-41319",
+          "attribution": false
+        }
+      },
+      "solution": "blue",
+      "difficulty": 3
+    },{
+      "id": 45,
+      "name": {
+        "en": "Paper sheet",
+        "es": "Hoja de papel"
+      },
+      "image": {
+        "url": "assets/images/products/paper_sheet.jpg",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/photos/crumpled-paper-abstract-antique-1551431",
+          "attribution": false
+        }
+      },
+      "solution": "blue",
+      "difficulty": 2
+    },{
+      "id": 46,
+      "name": {
+        "en": "Notebook",
+        "es": "Cuaderno"
+      },
+      "image": {
+        "url": "assets/images/products/notebook.jpg",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/photos/notepad-hand-hold-checkered-notes-407197",
+          "attribution": false
+        }
+      },
+      "solution": "blue",
+      "difficulty": 4
+    },{
+      "id": 47,
+      "name": {
+        "en": "Envelope",
+        "es": "Sobre"
+      },
+      "image": {
+        "url": "assets/images/products/envelope.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/vectors/envelope-icon-mail-1296046",
+          "attribution": false
+        }
+      },
+      "solution": "blue",
+      "difficulty": 3
+    },{
+      "id": 48,
+      "name": {
+        "en": "Propaganda brochure",
+        "es": "Folleto de propaganda"
+      },
+      "image": {
+        "url": "assets/images/products/brochure.jpg",
+        "license": {
+          "name": "CC BY 2.0",
+          "resource_url": "https://www.flickr.com/photos/mufan96/9198371336",
+          "attribution": "Brochure Design (CC BY 2.0) - Evan Courtney (https://www.flickr.com/photos/mufan96/9198371336)"
+        }
+      },
+      "solution": "blue",
+      "difficulty": 5
+    },{
+      "id": 49,
+      "name": {
+        "en": "Wrapping paper",
+        "es": "Papel de envolver"
+      },
+      "image": {
+        "url": "assets/images/products/wrapping_paper.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/photos/wrapping-paper-unpacked-gift-paper-1874672",
+          "attribution": false
+        }
+      },
+      "solution": "blue",
+      "difficulty": 4
+    },{
+      "id": 50,
+      "name": {
+        "en": "Magazine",
+        "es": "Revista"
+      },
+      "image": {
+        "url": "assets/images/products/magazine.jpg",
+        "license": {
+          "name": "Public domain",
+          "resource_url": "https://es.wikipedia.org/wiki/Archivo:The_Gang_Magazine_May_1935.jpg",
+          "attribution": false
+        }
+      },
+      "solution": "blue",
+      "difficulty": 3
+    },{
+      "id": 51,
+      "name": {
+        "en": "Toiler paper tube",
+        "es": "Canuto de un rollo de papel higiénico"
+      },
+      "image": {
+        "url": "assets/images/products/toilet_paper_tube.jpg",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/photos/roll-sanitary-tissue-toiletries-1239215",
+          "attribution": false
+        }
+      },
+      "solution": "blue",
+      "difficulty": 3
+    },{
+      "id": 52,
+      "name": {
+        "en": "Cardboard Box",
+        "es": "Caja de cartón"
+      },
+      "image": {
+        "url": "assets/images/products/cardboard_box.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/illustrations/box-cardboard-cardboard-box-package-1536798",
+          "attribution": false
+        }
+      },
+      "solution": "blue",
+      "difficulty": 3
+    },{
+      "id": 53,
+      "name": {
+        "en": "Cartoon base of a battery blister pack",
+        "es": "Base de cartón de un paquete de pilas"
+      },
+      "image": {
+        "url": "assets/images/products/batteries_package.jpg",
+        "license": {
+          "name": "CC BY 2.0",
+          "resource_url": "https://www.flickr.com/photos/jeepersmedia/15932380507",
+          "attribution": "Energizer Batteries Bunny (CC BY 2.0) - Mike Mozart (https://www.flickr.com/photos/jeepersmedia/15932380507)"
+        }
+      },
+      "solution": "blue",
+      "difficulty": 5
+    },{
+      "id": 54,
+      "name": {
+        "en": "Batteries",
+        "es": "Pilas"
+      },
+      "image": {
+        "url": "assets/images/products/batteries.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/illustrations/batteries-png-transparent-2109241",
+          "attribution": false
+        }
+      },
+      "solution": "facility",
+      "difficulty": 5
+    },{
+      "id": 55,
+      "name": {
+        "en": "Cellophane",
+        "es": "Papel celofan"
+      },
+      "image": {
+        "url": "assets/images/products/celofan.jpg",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/es/photos/loop-celof%C3%A1n-embalaje-pack-505474",
+          "attribution": false
+        }
+      },
+      "solution": "gray",
+      "difficulty": 8
+    },{
+      "id": 56,
+      "name": {
+        "en": "Paper tableware",
+        "es": "Vajilla de papel"
+      },
+      "image": {
+        "url": "assets/images/products/paper_tableware.jpg",
+        "license": {
+          "name": "CC BY-SA 3.0",
+          "resource_url": "https://commons.wikimedia.org/wiki/File:HK_CWB_Tung_Lo_Wan_%E8%81%96%E9%A6%AC%E5%88%A9%E4%BA%9E%E5%A0%82_Saint_Mary%27s_Church_Bday_party_paper_plates_May_2013.JPG",
+          "attribution": "Paper tableware (CC BY-SA 3.0) - Ewloskalw (https://commons.wikimedia.org/wiki/File:HK_CWB_Tung_Lo_Wan_%E8%81%96%E9%A6%AC%E5%88%A9%E4%BA%9E%E5%A0%82_Saint_Mary%27s_Church_Bday_party_paper_plates_May_2013.JPG)"
+        }
+      },
+      "solution": "gray",
+      "difficulty": 8
+    },{
+      "id": 57,
+      "name": {
+        "en": "Sticker",
+        "es": "Pegatina"
+      },
+      "image": {
+        "url": "assets/images/products/sticker.png",
+        "license": {
+          "name": "Public Domain",
+          "resource_url": "http://www.publicdomainfiles.com/show_file.php?id=13937418026763",
+          "attribution": false
+        }
+      },
+      "solution": "gray",
+      "difficulty": 6
+    },{
+      "id": 58,
+      "name": {
+        "en": "Photo",
+        "es": "Foto"
+      },
+      "image": {
+        "url": "assets/images/products/photo.jpg",
+        "license": {
+          "name": "CC0 Public Domain. Free for commercial use. Link referral required.",
+          "resource_url": "https://www.maxpixel.net/Nostalgia-Photographer-Old-Photo-Memory-Photos-256887",
+          "attribution": "Nostalgia Photographer Old Photo Memory Photos (CC0 Public Domain) - (https://www.maxpixel.net/Nostalgia-Photographer-Old-Photo-Memory-Photos-256887)"
+        }
+      },
+      "solution": "gray",
+      "difficulty": 7
+    },{
+      "id": 59,
+      "name": {
+        "en": "Pizza box with leftovers",
+        "es": "Caja de pizza con restos de comida"
+      },
+      "image": {
+        "url": "assets/images/products/pizza.jpg",
+        "license": {
+          "name": "CC0 Public Domain. Free for commercial use. Link referral required.",
+          "resource_url": "https://www.maxpixel.net/Pizza-The-Paper-Tray-Food-Take-Away-Faoodstf-940431",
+          "attribution": "Pizza (CC0 Public Domain) - (https://www.maxpixel.net/Pizza-The-Paper-Tray-Food-Take-Away-Faoodstf-940431)"
+        }
+      },
+      "solution": "gray",
+      "difficulty": 7
+    },{
+      "id": 60,
+      "name": {
+        "en": "Fishbone",
+        "es": "Espinas de pescado"
+      },
+      "image": {
+        "url": "assets/images/products/fishbone.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/vectors/fish-skeleton-skeleton-fish-sea-312089",
+          "attribution": false
+        }
+      },
+      "solution": "brown",
+      "difficulty": 2
+    },{
+      "id": 61,
+      "name": {
+        "en": "Bone",
+        "es": "Hueso"
+      },
+      "image": {
+        "url": "assets/images/products/bone.jpg",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/es/photos/cart%C3%ADlago-del-hueso-t-animales-1238297",
+          "attribution": false
+        }
+      },
+      "solution": "brown",
+      "difficulty": 2
+    },{
+      "id": 62,
+      "name": {
+        "en": "Rotten peach",
+        "es": "Melocotón podrido"
+      },
+      "image": {
+        "url": "assets/images/products/peach.jpg",
+        "license": {
+          "name": "CC BY 2.0",
+          "resource_url": "https://www.flickr.com/photos/stevendepolo/6112312369",
+          "attribution": "Rotting Peach Moldy (CC BY 2.0) - Steven Depolo (https://www.flickr.com/photos/stevendepolo/6112312369)"
+        }
+      },
+      "solution": "brown",
+      "difficulty": 1
+    },{
+      "id": 63,
+      "name": {
+        "en": "Orange peel",
+        "es": "Piel de una naranja"
+      },
+      "image": {
+        "url": "assets/images/products/orange_peel.jpg",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/es/photos/cáscara-cáscara-de-naranja-peel-3992177",
+          "attribution": false
+        }
+      },
+      "solution": "brown",
+      "difficulty": 1
+    },{
+      "id": 64,
+      "name": {
+        "en": "Nutshells",
+        "es": "Cáscaras de frutos secos"
+      },
+      "image": {
+        "url": "assets/images/products/nutshell.jpg",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/es/photos/nuez-tuerca-c%C3%A1scara-c%C3%A1scara-de-nuez-3072681",
+          "attribution": false
+        }
+      },
+      "solution": "brown",
+      "difficulty": 1
+    },{
+      "id": 65,
+      "name": {
+        "en": "Leftovers",
+        "es": "Restos de comida"
+      },
+      "image": {
+        "url": "assets/images/products/leftovers.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/vectors/dishes-dirty-housework-bowls-576376",
+          "attribution": false
+        }
+      },
+      "solution": "brown",
+      "difficulty": 1
+    },{
+      "id": 66,
+      "name": {
+        "en": "Tea bags (without staples)",
+        "es": "Bolsitas de infusiones (sin grapas)"
+      },
+      "image": {
+        "url": "assets/images/products/tea_bags.jpg",
+        "license": {
+          "name": "CC0 Public Domain. Free for commercial use. Link referral required",
+          "resource_url": "https://www.maxpixel.net/Drinks-Warm-Bags-Infusions-Infusion-Tea-2023815",
+          "attribution": "Drinks Warm Bags Infusions Infusion Tea (CC0 Public Domain) - (https://www.maxpixel.net/Drinks-Warm-Bags-Infusions-Infusion-Tea-2023815)"
+        }
+      },
+      "solution": "brown",
+      "difficulty": 5
+    },{
+      "id": 67,
+      "name": {
+        "en": "Coffee grounds",
+        "es": "Posos de café"
+      },
+      "image": {
+        "url": "assets/images/products/coffee_grounds.jpg",
+        "license": {
+          "name": "CC BY-SA 2.0",
+          "resource_url": "https://www.flickr.com/photos/avlxyz/3060373201",
+          "attribution": "Turkish Coffee grounds - degustation - Ottoman Cuisine (CC BY-SA 2.0) - Alpha (https://www.flickr.com/photos/avlxyz/3060373201)"
+        }
+      },
+      "solution": "brown",
+      "difficulty": 4
+    },{
+      "id": 68,
+      "name": {
+        "en": "Garden waste",
+        "es": "Restos de jardinería"
+      },
+      "image": {
+        "url": "assets/images/products/garden_waste.jpg",
+        "license": {
+          "name": "CC0 Public Domain",
+          "resource_url": "https://pxhere.com/en/photo/1441073",
+          "attribution": false
+        }
+      },
+      "solution": "brown",
+      "difficulty": 2
+    },{
+      "id": 69,
+      "name": {
+        "en": "Toothpicks",
+        "es": "Palillos de dientes"
+      },
+      "image": {
+        "url": "assets/images/products/toothpicks.jpg",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/es/photos/shish-kebab-brocheta-shish-kebab-60457",
+          "attribution": false
+        }
+      },
+      "solution": "brown",
+      "difficulty": 7
+    },{
+      "id": 70,
+      "name": {
+        "en": "Ash and cigarette butts",
+        "es": "Ceniza y colillas"
+      },
+      "image": {
+        "url": "assets/images/products/finished_cigarette.jpg",
+        "license": {
+          "name": "CC BY-SA 3.0",
+          "resource_url": "https://es.wikipedia.org/wiki/Archivo:Finished_cigarette.JPG",
+          "attribution": "Finished cigarette (CC BY-SA 3.0) - Elph (https://es.wikipedia.org/wiki/Archivo:Finished_cigarette.JPG)"
+        }
+      },
+      "solution": "gray",
+      "difficulty": 4
+    },{
+      "id": 71,
+      "name": {
+        "en": "Compostable bag",
+        "es": "Bolsa compostable"
+      },
+      "image": {
+        "url": "assets/images/products/compostable_bag.jpg",
+        "license": {
+          "name": "CC BY-SA 2.0",
+          "resource_url": "https://www.flickr.com/photos/47849240@N04/4400221513",
+          "attribution": "Coles bolsa compostable (CC BY-SA 2.0) - erostrend (https://www.flickr.com/photos/47849240@N04/4400221513)"
+        }
+      },
+      "solution": "brown",
+      "difficulty": 5
+    },{
+      "id": 72,
+      "name": {
+        "en": "Diapers",
+        "es": "Pañales"
+      },
+      "image": {
+        "url": "assets/images/products/diaper.jpg",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/es/photos/absorbente-beb%C3%A9-cuarto-de-ba%C3%B1o-3509508",
+          "attribution": false
+        }
+      },
+      "solution": "gray",
+      "difficulty": 5
+    },{
+      "id": 73,
+      "name": {
+        "en": "Sanitary towel",
+        "es": "Compresa"
+      },
+      "image": {
+        "url": "assets/images/products/sanitary_towel.jpg",
+        "license": {
+          "name": "CC BY-SA 3.0",
+          "resource_url": "https://ca.wikipedia.org/wiki/Fitxer:Maandverband.jpg",
+          "attribution": "Wingless sanitary towel (CC BY-SA 3.0) - Michiel1972 (https://ca.wikipedia.org/wiki/Fitxer:Maandverband.jpg)"
+        }
+      },
+      "solution": "gray",
+      "difficulty": 4
+    },{
+      "id": 74,
+      "name": {
+        "en": "Ceramic mugs",
+        "es": "Tazas de cerámica"
+      },
+      "image": {
+        "url": "assets/images/products/coffee_mugs.jpg",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/es/photos/tazas-de-caf%C3%A9-t-marr%C3%B3n-beber-copa-459324",
+          "attribution": false
+        }
+      },
+      "solution": "gray",
+      "difficulty": 6
+    },{
+      "id": 75,
+      "name": {
+        "en": "Porcelain plate",
+        "es": "Plato de porcelana"
+      },
+      "image": {
+        "url": "assets/images/products/porcelain_plate.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/es/vectors/placa-plato-cocina-blanco-159469",
+          "attribution": false
+        }
+      },
+      "solution": "gray",
+      "difficulty": 5
+    },{
+      "id": 76,
+      "name": {
+        "en": "Light bulb",
+        "es": "Bombilla"
+      },
+      "image": {
+        "url": "assets/images/products/light_bulb.jpg",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/es/photos/bombilla-de-luz-luces-bokeh-energ%C3%ADa-3535435",
+          "attribution": false
+        }
+      },
+      "solution": "gray",
+      "difficulty": 4
+    },{
+      "id": 77,
+      "name": {
+        "en": "Metal fork",
+        "es": "Tenedor metálico"
+      },
+      "image": {
+        "url": "assets/images/products/fork.jpg",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/es/photos/tenedor-comer-tenedor-de-metal-554064",
+          "attribution": false
+        }
+      },
+      "solution": "gray",
+      "difficulty": 5
+    },{
+      "id": 78,
+      "name": {
+        "en": "Razor",
+        "es": "Maquinilla de afeitar"
+      },
+      "image": {
+        "url": "assets/images/products/razor.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/es/vectors/razor-blade-negro-agudo-corte-29950/",
+          "attribution": false
+        }
+      },
+      "solution": "gray",
+      "difficulty": 3
+    },{
+      "id": 79,
+      "name": {
+        "en": "Yogurt pot",
+        "es": "Envase de yogur"
+      },
+      "image": {
+        "url": "assets/images/products/yogurt_pot.jpg",
+        "license": {
+          "name": "CC BY-SA 3.0",
+          "resource_url": "https://es.m.wikipedia.org/wiki/Archivo:Envase_de_yogur.jpg",
+          "attribution": "Envase de yogur (CC BY-SA 3.0) - Hispalois (https://es.m.wikipedia.org/wiki/Archivo:Envase_de_yogur.jpg)"
+        }
+      },
+      "solution": "yellow",
+      "difficulty": 3
+    },{
+      "id": 80,
+      "name": {
+        "en": "Medicine",
+        "es": "Medicamento"
+      },
+      "image": {
+        "url": "assets/images/products/medicine.jpg",
+        "license": {
+          "name": "CC0 Public Domain",
+          "resource_url": "https://www.publicdomainpictures.net/en/view-image.php?image=8882&picture=medicine",
+          "attribution": false
+        }
+      },
+      "solution": "sigre",
+      "difficulty": 5
+    },{
+      "id": 81,
+      "name": {
+        "en": "Medicine (including box, leaflet and blister)",
+        "es": "Medicamento (incluyendo la caja, el prospecto y el blíster)"
+      },
+      "image": {
+        "url": "assets/images/products/medicine_full.jpg",
+        "license": {
+          "name": "CC BY-SA 3.0",
+          "resource_url": "https://commons.wikimedia.org/wiki/File:Generic_paracetamol_dprk.jpg",
+          "attribution": "Generic paracetamol dprk (CC BY-SA 3.0) - Kristoferb (talk) (https://commons.wikimedia.org/wiki/File:Generic_paracetamol_dprk.jpg)"
+        }
+      },
+      "solution": "sigre",
+      "difficulty": 7
+    },{
+      "id": 82,
+      "name": {
+        "en": "Pills",
+        "es": "Pastillas"
+      },
+      "image": {
+        "url": "assets/images/products/pills.jpg",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/es/photos/paracetamol-medicaci%C3%B3n-pastillas-315875",
+          "attribution": false
+        }
+      },
+      "solution": "sigre",
+      "difficulty": 5
+    },{
+      "id": 83,
+      "name": {
+        "en": "Thermometer",
+        "es": "Termómetro"
+      },
+      "image": {
+        "url": "assets/images/products/thermometer.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/vectors/thermometer-temperature-fever-309120",
+          "attribution": false
+        }
+      },
+      "solution": "facility",
+      "difficulty": 8
+    },{
+      "id": 84,
+      "name": {
+        "en": "DVD",
+        "es": "DVD"
+      },
+      "image": {
+        "url": "assets/images/products/DVDs.jpg",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/photos/dvd-blank-data-computer-2418366",
+          "attribution": false
+        }
+      },
+      "solution": "facility",
+      "difficulty": 5
+    },{
+      "id": 85,
+      "name": {
+        "en": "Fluorescent tube",
+        "es": "Tubo fluorescente"
+      },
+      "image": {
+        "url": "assets/images/products/fluorescent_tube.jpg",
+        "license": {
+          "name": "CC BY-SA 3.0",
+          "resource_url": "https://commons.wikimedia.org/wiki/File:Old_USSR_fluorescent_lamp.JPG",
+          "attribution": "Old Soviet fluorescent lamp (CC BY-SA 3.0) - Dmitry G (https://commons.wikimedia.org/wiki/File:Old_USSR_fluorescent_lamp.JPG)"
+        }
+      },
+      "solution": "facility",
+      "difficulty": 6
+    },{
+      "id": 86,
+      "name": {
+        "en": "Olive oil",
+        "es": "Aceite de oliva"
+      },
+      "image": {
+        "url": "assets/images/products/olive_oil.jpg",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/photos/olive-oil-salad-dressing-cooking-968657",
+          "attribution": false
+        }
+      },
+      "solution": "facility",
+      "difficulty": 5
+    },{
+      "id": 87,
+      "name": {
+        "en": "Laptop",
+        "es": "Ordenador portátil"
+      },
+      "image": {
+        "url": "assets/images/products/laptop.jpg",
+        "license": {
+          "name": "CC0 Public Domain",
+          "resource_url": "https://www.publicdomainpictures.net/es/view-image.php?image=910&picture=laptop",
+          "attribution": false
+        }
+      },
+      "solution": "facility",
+      "difficulty": 4
+    },{
+      "id": 88,
+      "name": {
+        "en": "Fridge",
+        "es": "Frigorífico"
+      },
+      "image": {
+        "url": "assets/images/products/fridge.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/vectors/refrigerator-fridge-cooling-cold-158634",
+          "attribution": false
+        }
+      },
+      "solution": "facility",
+      "difficulty": 3
+    },{
+      "id": 89,
+      "name": {
+        "en": "Smartphone",
+        "es": "Smartphone"
+      },
+      "image": {
+        "url": "assets/images/products/smartphone.jpg",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/photos/smartphone-screen-android-1957740",
+          "attribution": false
+        }
+      },
+      "solution": "facility",
+      "difficulty": 5
+    },{
+      "id": 90,
+      "name": {
+        "en": "Toaster",
+        "es": "Tostadora"
+      },
+      "image": {
+        "url": "assets/images/products/toaster.jpg",
+        "license": {
+          "name": "CC0 Public Domain",
+          "resource_url": "https://www.publicdomainpictures.net/en/view-image.php?image=118411&picture=grey-toaster",
+          "attribution": false
+        }
+      },
+      "solution": "facility",
+      "difficulty": 5
+    },{
+      "id": 91,
+      "name": {
+        "en": "Hair dryer",
+        "es": "Secador de pelo"
+      },
+      "image": {
+        "url": "assets/images/products/hair_dryer.jpg",
+        "license": {
+          "name": "CC0 Public Domain",
+          "resource_url": "https://www.publicdomainpictures.net/en/view-image.php?image=224542&picture=hair-dryer",
+          "attribution": false
+        }
+      },
+      "solution": "facility",
+      "difficulty": 5
+    },{
+      "id": 92,
+      "name": {
+        "en": "Washing machine",
+        "es": "Lavadora"
+      },
+      "image": {
+        "url": "assets/images/products/washing_machine.jpg",
+        "license": {
+          "name": "CC BY 2.0",
+          "resource_url": "https://www.flickr.com/photos/aquamech-utah/24776531510",
+          "attribution": "Washing machine (CC BY 2.0) - Aqua Mechanical (https://www.flickr.com/photos/aquamech-utah/24776531510)"
+        }
+      },
+      "solution": "facility",
+      "difficulty": 3
+    },{
+      "id": 93,
+      "name": {
+        "en": "Toy with electronic components",
+        "es": "Juguete con componentes electrónicos"
+      },
+      "image": {
+        "url": "assets/images/products/tamagotchi.jpg",
+        "license": {
+          "name": "CC BY-SA 3.0",
+          "resource_url": "https://es.m.wikipedia.org/wiki/Archivo:Tamagotchi_0124_ubt.jpeg",
+          "attribution": "Tamagotchi (CC BY-SA 3.0) - Tomasz Sienicki (https://es.m.wikipedia.org/wiki/Archivo:Tamagotchi_0124_ubt.jpeg)"
+        }
+      },
+      "solution": "facility",
+      "difficulty": 6
+    },{
+      "id": 94,
+      "name": {
+        "en": "Paint bucket",
+        "es": "Bote de pintura"
+      },
+      "image": {
+        "url": "assets/images/products/paint_bucket.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/vectors/paint-pot-pot-color-bucket-157812",
+          "attribution": false
+        }
+      },
+      "solution": "facility",
+      "difficulty": 5
+    },{
+      "id": 95,
+      "name": {
+        "en": "Toner and ink cartridges",
+        "es": "Tóner y cartuchos de tinta"
+      },
+      "image": {
+        "url": "assets/images/products/toner.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/illustrations/toner-cartridges-powder-ink-cmyk-3324114",
+          "attribution": false
+        }
+      },
+      "solution": "facility",
+      "difficulty": 6
+    },{
+      "id": 96,
+      "name": {
+        "en": "Furniture",
+        "es": "Muebles"
+      },
+      "image": {
+        "url": "assets/images/products/chair.png",
+        "license": {
+          "name": "Free for commercial use, no attribution required",
+          "resource_url": "https://pixabay.com/illustrations/chair-oversized-furniture-green-3961592",
+          "attribution": false
+        }
+      },
+      "solution": "facility",
+      "difficulty": 5
+    },{
+      "id": 97,
+      "name": {
+        "en": "Tyre",
+        "es": "Neumático"
+      },
+      "image": {
+        "url": "assets/images/products/tyre.jpg",
+        "license": {
+          "name": "CC0 Public Domain",
+          "resource_url": "https://www.publicdomainpictures.net/en/view-image.php?image=184050&picture=tyre-on-side-of-jetty",
+          "attribution": false
+        }
+      },
+      "solution": "facility",
+      "difficulty": 5
+    },{
+      "id": 98,
+      "name": {
+        "en": "TV",
+        "es": "Televisor"
+      },
+      "image": {
+        "url": "assets/images/products/TV.jpg",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "resource_url": "https://commons.wikimedia.org/wiki/File:Eeen_television.jpg",
+          "attribution": "Television (CC BY-SA 4.0) - NeoMeesje (https://commons.wikimedia.org/wiki/File:Eeen_television.jpg)"
+        }
+      },
+      "solution": "facility",
+      "difficulty": 4
+    },{
+      "id": 99,
+      "name": {
+        "en": "Mattress",
+        "es": "Colchón"
+      },
+      "image": {
+        "url": "assets/images/products/mattress.jpg",
+        "license": {
+          "name": "CC BY 2.5",
+          "resource_url": "https://commons.wikimedia.org/wiki/File:Pillowtop-mattress.jpg",
+          "attribution": "A pillowtop mattress (CC BY 2.5) - Jeffrey M. Vinocur (https://commons.wikimedia.org/wiki/File:Pillowtop-mattress.jpg)"
+        }
+      },
+      "solution": "facility",
+      "difficulty": 5
+    },{
+      "id": 100,
+      "name": {
+        "en": "Rubble",
+        "es": "Escombros"
+      },
+      "image": {
+        "url": "assets/images/products/tiles_broken_construction.jpg",
+        "license": {
+          "name": "CC0 Public Domain",
+          "resource_url": "https://pxhere.com/es/photo/592317",
+          "attribution": false
+        }
+      },
+      "solution": "facility",
+      "difficulty": 6
+    }
+  ]
+}
