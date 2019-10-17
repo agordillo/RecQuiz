@@ -11,7 +11,7 @@ export function init(){
   } catch(e){};
 
   sessionData.deviceid = LocalStorage.getSetting("deviceid");
-  sessionData.timestamp = new Date().getTime();
+  sessionData.timestamp_init = new Date().getTime();
   sessionData.config = GLOBAL_CONFIG;
   sessionData.environment = {};
   sessionData.environment.parents = getParentURLs();
@@ -89,6 +89,8 @@ function _sendTrackedData(){
 };
 
 function _composeTrackingObject(){
+  sessionData.timestamp_end = new Date().getTime();
+  sessionData.duration = Math.round(((sessionData.timestamp_end-sessionData.timestamp_init)/1000));
   return {
     "app_id": GLOBAL_CONFIG.tracker.app_id,
     "app_key": GLOBAL_CONFIG.tracker.app_key,
