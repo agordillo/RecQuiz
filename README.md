@@ -7,7 +7,7 @@ RecQuiz has been created by using [RESCORM](https://github.com/agordillo/RESCORM
 
 # Installation and documentation
 
-Download the application from GitHub and execute 'npm start' to start it. 
+Download the application from GitHub and execute 'npm install' and then 'npm start' to start it. 
 More available commands can be found at the [RESCORM wiki](https://github.com/agordillo/RESCORM/wiki). 
  
  
