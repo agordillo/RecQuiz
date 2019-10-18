@@ -4,6 +4,12 @@ div.instructions_wrapper {
   padding: 1.7rem;
 }
 
+div.instructions_wrapper div.container {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  max-width: 100%;
+}
+
 div.instructions_wrapper h1 {
   font-size: 2.2rem;
 }
@@ -17,11 +23,11 @@ div.instructions_wrapper button {
 }
 
 div.instructions_wrapper ul li img {
-  max-width: 3%;
+  max-width: 2%;
 }
 
 div.instructions_wrapper ul li img.logo_in_instructions {
-  max-width: 8%;
+  max-width: 6%;
 }
 
 div.instructions_checkbox {
@@ -38,4 +44,22 @@ div.instructions_checkbox ul li {
 
 div.instructions_checkbox ul li span {
 	margin-left: 0.5%;
+}
+
+@media (max-width: 950px) {
+  div.instructions_wrapper ul li img {
+    max-width: 3%;
+  }
+  div.instructions_wrapper ul li img.logo_in_instructions {
+    max-width: 9%;
+  }
+}
+
+@media (max-width: 600px) {
+  div.instructions_wrapper ul li img {
+    max-width: 3.5%;
+  }
+  div.instructions_wrapper ul li img.logo_in_instructions {
+    max-width: 12%;
+  }
 }
