@@ -907,13 +907,21 @@ export default function SCORM_API(options){
             ig = true;
             break;
           case "cmi.success_status":
-            if((API.data.completion_status == "completed")&&(v != "passed")){
-              //When cmi.core.lesson_status is "completed", only allow the LO to change it to "passed"
+            if((API.data.completion_status == "completed")&&((v != "passed")&&(v != "failed"))){
+              //When cmi.core.lesson_status is "completed", only allow the LO to change it to "passed" or "failed"
               return 'false';
             }
+            //In SCORM 1.2, "failed" also implies that the LO has been completed
+            //Do not allow the LO to change success_status to "failed" unless it has been previously completed
+            if(v == "failed"){
+              if(API.data.completion_status != "completed"){
+                return 'false';
+              }
+            }
           case "cmi.completion_status":
-            if((API.data.completion_status == "passed")){
-              //When cmi.core.lesson_status is "passed", prevent the LO to change it to "complete"
+            if((API.data.completion_status == "passed")||(API.data.completion_status == "failed")){
+              //When cmi.core.lesson_status is "passed" or "failed", prevent the LO to change it to "completed" (or other value)
+              //In SCORM 1.2, "passed" and "failed" also imply that the LO has been completed
               return 'false';
             }
             nn = "cmi.core.lesson_status";

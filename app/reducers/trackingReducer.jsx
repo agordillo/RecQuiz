@@ -55,6 +55,10 @@ function trackingReducer(state = {}, action){
       }
     }
 
+    //Round to 2 decimals
+    newState.progress_measure = +(newState.progress_measure.toFixed(2));
+    newState.score = +(newState.score.toFixed(2));
+
     return newState;
   case 'RESET_OBJECTIVES':
     newState = JSON.parse(JSON.stringify(state));
