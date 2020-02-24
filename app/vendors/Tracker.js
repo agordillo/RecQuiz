@@ -2,6 +2,7 @@ import {GLOBAL_CONFIG} from '../config/config.js';
 import * as LocalStorage from '../vendors/Storage.js';
 import $ from 'jquery';
 
+let trackedDataSent = false;
 let user_agent = undefined;
 let sessionData = {actions: []};
 
@@ -17,10 +18,6 @@ export function init(){
   sessionData.environment.parents = getParentURLs();
 
   $(window).on("unload",onBeforeUnload);
-
-  // Testing
-  // console.log("Tracker init: SESSION DATA");
-  // console.log(LocalStorage.getSetting("sessionData"));
 }
 
 export function storeQuestionAnswered(objective,user_selection){
@@ -29,6 +26,9 @@ export function storeQuestionAnswered(objective,user_selection){
 
 export function storeScreen(screen_id){
   storeAction("CHANGE_SCREEN",{screen_id: screen_id});
+  if(screen_id === 3){
+    _sendTrackedData();
+  }
 }
 
 export function storeAction(action_type,action_data){
@@ -70,23 +70,32 @@ function getParentURLs(win,URLs){
   }
 }
 
-function onBeforeUnload(){
+function onBeforeUnload(event){
   // LocalStorage.saveSetting("sessionData",sessionData); //Testing
+  event.preventDefault();
+  _sendTrackedData();
+  return null;
+}
 
-  if(typeof GLOBAL_CONFIG.tracker === "undefined"){
-    return;
-  }
+export function sendTrackedData(){
   _sendTrackedData();
 }
 
 function _sendTrackedData(){
+  if(trackedDataSent === true){
+    return;
+  }
+  if(typeof GLOBAL_CONFIG.tracker === "undefined"){
+    return;
+  }
   $.ajax({
     type    : 'POST',
     url     : GLOBAL_CONFIG.tracker.url,
     data    : _composeTrackingObject(),
-    async   : false
+    async   : true
   });
-};
+  trackedDataSent = true;
+}
 
 function _composeTrackingObject(){
   sessionData.timestamp_end = new Date().getTime();
@@ -97,4 +106,4 @@ function _composeTrackingObject(){
     "user_agent": user_agent,
     "data": sessionData
   }
-};
+}
